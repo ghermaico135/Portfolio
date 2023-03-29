@@ -65,11 +65,11 @@ header {
 }
 
 /*  Main header section  */
-
 .greeting {
   width: 327px;
   height: 146px;
-  font-family: 'Poppins', sans-serif;
+
+  /* font-family: 'Poppins', sans-serif; */
   font-weight: 400;
   font-size: 35px;
   line-height: 36px;
@@ -84,7 +84,8 @@ header {
 .intro {
   width: 327px;
   height: 146px;
-  font-family: 'Poppins', sans-serif;
+
+  /* font-family: 'Poppins', sans-serif; */
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -100,7 +101,8 @@ header {
 .network h4 {
   width: 217px;
   height: 24px;
-  font-family: 'Poppins', sans-serif;
+
+  /* font-family: 'Poppins', sans-serif; */
   font-weight: 500;
   font-size: 24px;
   line-height: 24px;
@@ -127,7 +129,6 @@ ul {
   align-items: center;
   padding: 0;
 }
-
 
 /* social icons */
 .icons {
