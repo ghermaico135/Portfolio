@@ -1,5 +1,11 @@
-#Portfolio Mobile responsive
+#Readme Portfolio Mobile responsive
 
+  <div align="center">
+
+  <h3><b>Portfolio Mobile responsive</b></h3>
+
+</div>
+<!-- TABLE OF CONTENTS -->
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -20,17 +26,21 @@
 
 # 📖 [portfolio]
 
-**[portfolio]** This project gives a documented work experience and history of projects done
+**[portfolio mobile responsive]** This project gives a documented work experience and history of projects done.Also mastering and configuring all the tools and best practices I've learned about how to document my work in a professional
+way considering proper Github workflow and especially using other technical
+topics like html-css linters and github pull requests.
 
 ## 🛠 Built With
+
+Html and css
 
 ### Tech Stack
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li>html</li>
-    <li>css</li>
+    <li><a href="https://github.com/ghermaico135/Portfolio">portfolio</a></li>
+    
   </ul>
 </details>
 
@@ -51,20 +61,34 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+IIn order to run this project you need:
 
-install a text editor
+- vscode.
+
+- git.
+
+- set up an index.html document.
+- set up a style.css document.
 
 ### Setup
 
 Clone this repository to your desired folder:
-
+Navigate to the directory where you want clone this project in your computer
 Run this commands:
 
 ```sh
   cd Desktop
   git clone "https://github.com/ghermaico135/Portfolio"
 ```
+
+## Install
+
+Install this project with this command:
+
+### Usage
+
+To run the project, execute the following command by opening the
+vscode with the command `code .`
 
 ### Deployment
 
@@ -91,9 +115,17 @@ Github Page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check on us.
+
 ## ⭐️ Show your support
 
-If you like this project, please give your rating or suggest to me how to make it better
+If you like this project, give it a star ⭐ or comments thats constructive
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,6 +134,12 @@ If you like this project, please give your rating or suggest to me how to make i
 I would like to thank Microverse team and the code reviewers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ (OPTIONAL)
+
+- **[How is learning in Microverse program? ]**
+
+  - [I will witness, I really enjoy and get a lot of experience.]
 
 ## 📝 License
 
