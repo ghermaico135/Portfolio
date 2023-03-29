@@ -1,56 +1,148 @@
-# Hello-Project# HelloProject
+#Readme Portfolio Mobile responsive
 
-# Hello-Microverse# helloMicroverse
+  <div align="center">
 
-#Project Title
-Hello Microverse
+  <h3><b>Portfolio Mobile responsive</b></h3>
 
-#Project Description
-The Hello Microverse project is for testing the implementation of front end design and checking how does it work with linters
+</div>
+<!-- TABLE OF CONTENTS -->
+# 📗 Table of Contents
 
-🛠 Built With
-Tech Stack
-vscode
-linters
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-#Describe the tech stack and include only the relevant sections that apply to your project.
-Key Features - using of linters to check the errors before reaching to backend
+# 📖 [portfolio]
 
-🚀 Live Demo
-The project will be be deployed in Netlify
+**[portfolio mobile responsive]** This project gives a documented work experience and history of projects done.Also mastering and configuring all the tools and best practices I've learned about how to document my work in a professional
+way considering proper Github workflow and especially using other technical
+topics like html-css linters and github pull requests.
 
-💻 Getting Started
-New developer could make use of your project by clone from my github account of "github/ghermaico135"
+## 🛠 Built With
+
+Html and css
+
+### Tech Stack
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://github.com/ghermaico135/Portfolio">portfolio</a></li>
+    
+  </ul>
+</details>
+
+### Key Features
+
+- **[Zero linters error]**
+- **[Responsive mobile]**
+- **[Set up and design header section]**
+- **[Set up and design headline section]**
+- **[list of projects]**
+- **[language used in development]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started
 
 To get a local copy up and running, follow these steps.
 
-Prerequisites
-In order to run this project you need: to have latest chrome browser installed
+### Prerequisites
 
-Setup
-Clone this repository to your desired folder:"github/ghermaico135"
-And try to open in any editor however recommended is vscode
+IIn order to run this project you need:
 
-Usage
-To run the project, execute right click open in chrome browser
+- vscode.
 
-#Run tests
-I used html-css linter to run the test for minimize errors and to improve performance
-#Author
-Author miki
-GitHub: ghermaico135
-Twitter: @mikidarling
-LinkedIn: miki
-🔭 Future Features
-new feature-1 will be added to make more dynamic by linking with javascript
+- git.
 
-#Contributing
+- set up an index.html document.
+- set up a style.css document.
+
+### Setup
+
+Clone this repository to your desired folder:
+Navigate to the directory where you want clone this project in your computer
+Run this commands:
+
+```sh
+  cd Desktop
+  git clone "https://github.com/ghermaico135/Portfolio"
+```
+
+## Install
+
+Install this project with this command:
+
+### Usage
+
+To run the project, execute the following command by opening the
+vscode with the command `code .`
+
+### Deployment
+
+You can deploy this project using:
+
+Github Page
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+👤 **Michael okbamichael**
+
+- GitHub: [ghermaico135](https://github.com/ghermaico135)
+- Twitter: [@Mikidarling3](https://twitter.com/@Mikidarling3)
+- LinkedIn: [Michael okbamichael](https://www.linkedin.com/in/michael-okbamichael-966106263/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features
+
+- [ ] **[Portfolio summary]**
+- [ ] **[Work done features and links]**
+- [ ] **[Language used for design]**
+- [ ] **[contact forms]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
 
-🙏 Acknowledgments
-Give credit to everyone in the microverse community .
+Feel free to check on us.
 
-    I would like to thank...
+## ⭐️ Show your support
 
-📝 License
-<a href="./MIT licencse"> MIT licencse</a>
+If you like this project, give it a star ⭐ or comments thats constructive
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments
+
+I would like to thank Microverse team and the code reviewers
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ (OPTIONAL)
+
+- **[How is learning in Microverse program? ]**
+
+  - [I will witness, I really enjoy and get a lot of experience.]
+
+## 📝 License
+
+This project is [MIT](./MIT-license) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
