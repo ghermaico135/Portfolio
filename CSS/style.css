@@ -22,9 +22,6 @@ body {
 
 .wrapper {
   min-width: 80vw;
-
-  /* display: flex;
-  flex-direction: column; */
   height: 100vh;
   margin: 0 auto;
   padding: 20px;
@@ -183,8 +180,6 @@ ul {
     margin-left: -10px;
   }
 }
-
-<<<<<<< HEAD
 
 /* ======================================Work section T====================================================== */
 
@@ -472,6 +467,5 @@ footer {
 }
 =======
 /* @media (min-width: 375px){
-
 } */
 >>>>>>> main
