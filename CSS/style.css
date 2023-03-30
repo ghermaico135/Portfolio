@@ -27,7 +27,6 @@ body {
   padding: 20px;
 }
 
-
 /* ===================================================header================================================================================= */
 
 header {
@@ -42,8 +41,6 @@ header {
   margin-bottom: 1.2rem;
 }
 
-/* images/Img/header-shapes\ mobile@2x.png */
-
 /* header nav */
 .top-nav {
   display: flex;
@@ -54,8 +51,6 @@ header {
 }
 
 .list-of-course li {
-  /* width: 68px;
-  height: 16px; */
   width: 75px;
   height: 24px;
   font-style: normal;
@@ -94,7 +89,6 @@ header {
 }
 
 /*  Section header section  */
-
 .greeting {
   width: 300px;
   height: 146px;
@@ -182,8 +176,6 @@ ul {
 }
 
 /* ======================================Work section T====================================================== */
-
-/* @media (min-width:375px){ */
 .work-section {
   position: relative;
   display: flex;
@@ -204,8 +196,6 @@ ul {
   width: 295px;
   height: 220px;
   border-radius: 8px;
-
-  /* margin-top: 1.3rem; */
 }
 
 .owner-name {
@@ -219,7 +209,6 @@ ul {
   margin: 0.5rem 0 1rem 0;
 }
 
-/* let me back */
 .info {
   display: flex;
   flex-direction: row;
@@ -314,8 +303,6 @@ ul {
     width: 50%;
     height: 80%;
     padding: 26px;
-
-    /* margin-top: 0.3rem; */
   }
 
   .daily-selection {
@@ -324,9 +311,7 @@ ul {
   }
 }
 
-
 /* =======================================================footer====================================================================================== */
-
 footer {
   position: relative;
   width: 327px;
@@ -392,7 +377,6 @@ footer {
   margin-left: 0;
   padding-left: 8px;
 }
-
 
 /* social icons */
 .f-icons {
