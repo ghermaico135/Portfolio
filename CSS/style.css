@@ -24,7 +24,8 @@ body {
   min-width: 80vw;
   height: 100vh;
   margin: 0 auto;
-  padding: 20px;
+
+  /* padding: 10px; */
 }
 
 /* ===================================================header================================================================================= */
@@ -281,13 +282,13 @@ ul {
 }
 
 .btn {
-  width: 200px;
+  width: 180px;
   height: 55px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 0.5rem;
-  padding: 1rem;
+  padding: 0.5rem 0 0.5rem 0;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -300,9 +301,27 @@ ul {
   border-radius: 16px;
 }
 
+.btn:enabled {
+  color: var(--skyblue);
+  border-color: var(--skyblue);
+  border: 1px solid var(--skyblue);
+}
+
+.btn:disabled {
+  color: var(--dark-grey);
+  border: 1px solid var(--dark-grey);
+}
+
 .btn:hover {
-  text-decoration: underline;
-  color: #396df2;
+  color: var(--white);
+  border-color: var(--skyblue);
+  background-color: var(--skyblue);
+}
+
+.btn:active {
+  color: var(--white);
+  border: 1px solid rgb(10, 10, 177);
+  background-color: rgb(10, 10, 177);
 }
 
 /* media query for work section */
