@@ -31,7 +31,7 @@ body {
 
 header {
   position: relative;
-  width: 327px;
+  width: 375px;
   height: 552px;
   background: var(--white);
   background-image: url(../images/Img/header-shapes\ mobile@2x.png);
@@ -187,9 +187,9 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px;
+  padding: 32px;
   gap: 12px;
-  width: 327px;
+  width: 375px;
   height: 552px;
   background: var(--white);
   border: 1px solid #dfe1e6;
@@ -322,12 +322,13 @@ ul {
 /* =======================================================footer====================================================================================== */
 footer {
   position: relative;
-  width: 327px;
+  width: 375px;
   height: 1263px;
   background: var(--white);
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin: 1rem 0 0 0;
+  padding: 1rem;
 }
 
 .about-section {
@@ -430,8 +431,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-self: center;
-  border-bottom: 1px solid var(--skyblue);
-  box-shadow: 1px 1px #888;
+  border-bottom: 1px solid #ccc;
 }
 
 .web-lang {
