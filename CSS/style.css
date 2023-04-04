@@ -472,7 +472,9 @@ footer {
 
 /* ===============================================menu for pair programming============================================= */
 
-.menu{
-  width: 12rem;
-  height: 0.4rem;
+.lan-menu li{
+  background-color: var(--skyblue);
+  color: var(--white);
+  margin: 0.3rem;
+  /* padding: 0.3rem; */
 }
