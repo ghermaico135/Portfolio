@@ -575,7 +575,7 @@ background:#fff;
   background: blue;
 }
 
-input:focus, textarea:focus{
+/* input:focus, textarea:focus{
   outline: none;
-}
+} */
 
