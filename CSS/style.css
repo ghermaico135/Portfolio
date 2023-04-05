@@ -540,6 +540,7 @@ textarea {
   width: 90%;
   border-radius: 10px;
   margin: 0 24px;
+
   /* display: flex;
   align-items: center; */
   color: #000;
@@ -577,7 +578,3 @@ input:focus,
 textarea:focus {
   outline: none;
 }
-
-
-/* ==========================================================Desktop version ++++++++++++++++++++++++++++++++++++++++++++++++ */
-
