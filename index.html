@@ -242,8 +242,9 @@
       </main> 
 
   <!---------------------------------------------footer ------------------------------------------------------- -->
-      <footer>
-          <section>
+  <footer>   
+      <section class="footer-about">
+          <!-- <section> -->
               <div class="about-section">
                   <div>
                       <h1 class="about-myself">
@@ -319,10 +320,10 @@
                                 <h5>HTML</h5>
                             </div>
                         
-                        <div class="web-lang">
-                            <img src="./images/Icon/Ellipse 3.png" alt="CSS">
-                            <h5>CSS</h5>
-                          </div>
+                              <div class="web-lang">
+                                <img src="./images/Icon/Ellipse 3.png" alt="CSS">
+                                <h5>CSS</h5>
+                              </div>
                         </div>
 
                         <div class="grid separate">
@@ -338,9 +339,47 @@
                               </div>
                         </div>
                     </div> 
-                </section>
-          </footer> 
+     
+                <!-- </section> -->
+                <!-- ---------------------------------------------------------------End----------------------------------------------------------------- -->
+                
+      </section> 
+           <!-- -------------------------------------------------------------contact form ---------------------------------------------------------- -->
+           <section class="contact-section ">
+            <div class="contact-content">
+                    <div class="contact-me">
+                      <h2>contact me</h2>
+                    </div>
+                    <div class="about-us">
+                          <p>
+                            If you have an application you are interested in developing, 
+                            a feature that you need built or a project that needs coding. 
+                            I’d love to help with it!
+                          </p>
+                    </div>
+              
+                  <form action="https://formspree.io/f/xdovwvbg" method="post">
+                      <div>
+                        <input type="text" name="userName" maxlength="30" placeholder="userName" required>
+                      </div>
+                      <div>
+                        <input type="email" name="email" placeholder="example@gmail.com" required>
+                      </div>
+          
+                      <div>
+                        <textarea name="msg" id="10" cols="30" rows="6" maxlength="500"  placeholder="write your message here" required></textarea>
+                      </div>
+          
+                      <div>
+                        <input class="btn-submit" type="submit" name="submit" value="Get in touch">
+                      </div>
+                  </form>
+        
+                </div>
+            </section>
+      </footer> 
   <!---------------------------------------------footer ------------------------------------------------------- -->
-  </div>             
+  </div>     
+
 </body>
 </html>
