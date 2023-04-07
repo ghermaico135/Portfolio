@@ -48,6 +48,8 @@ header {
   font-size: 15px;
   line-height: 20px;
   color: #344563;
+  transform: scale(0.8);
+  transition: ease-in-out;
 }
 
 .menu a {
@@ -290,6 +292,29 @@ header {
   text-decoration: none;
   border: 1px solid #396df2;
   border-radius: 16px;
+  transition: ease-in-out 3s;
+}
+.btn-desktop:enabled {
+  color: var(--skyblue);
+  border-color: var(--skyblue);
+  border: 1px solid var(--skyblue);
+}
+
+.btn-desktop:disabled {
+  color: var(--dark-grey);
+  border: 1px solid var(--dark-grey);
+}
+
+.btn-desktop:hover {
+  color: var(--white);
+  border-color: var(--skyblue);
+  background-color: var(--skyblue);
+}
+
+.btn-desktop:active {
+  color: var(--white);
+  border: 1px solid rgb(10, 10, 177);
+  background-color: rgb(10, 10, 177);
 }
 
 .btn {
