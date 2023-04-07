@@ -7,7 +7,10 @@
   <title>Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./CSS/style.css">
-  <link rel="stylesheet" href="./CSS/try.css">
+  <!-- <link rel="stylesheet" href="./CSS/try.css"> -->
+  <link rel="stylesheet" type="text/css"
+    media="screen and (min-width: 48em)"
+    href="./CSS/desktopVersion.css" />
 </head>
 <body>
 
@@ -43,52 +46,53 @@
                       Glad to see you!
                     </h1>
                   </div>
-                <article>
+        
+                  <div>
                     <p class="intro">
                       I’m a software developer! I can help you build a product , 
                       feature or website Look through some of my work and experience! 
                       If you like what you see and have a project 
                       you need coded, don’t hesitate to contact me.
                     </p>
-                </article>
-            </div>
-              
-            <div class="flex-start">
-                <div>
-                  <a class="network" href="#"><h4>LET'S CONNECT!</h4></a>
-                </div>
-                <div class="social">
-                    <ul>
-                          <li >
-                            <a href="twitter.com">
-                              <img class="icons" src="./images/Icon/Twitter.png" alt="twitter">
-                            </a>
-                          </li>
-                          <li>
-                            <a href="linkdin.com">
-                              <img class="icons" src="./images/Icon/LinkedIn.png" alt="LinkedIn">
-                            </a>
-                          </li>
-                          <li >  
-                            <a href="">
-                            <img  class="icons" src="./images/Icon/Disabled.png" alt="disabled">
-                          </a>
-                        </li>
-                          <li >
-                            <a href="#">
-                              <img class="icons" src="./images/Icon/Github.png" alt="github">
-                            </a>
-                          </li>
-                          <li >
-                            <a href="#">
-                              <img class="icons" src="./images/Icon/Valid.png" alt="valid">
-                            </a>
-                          </li>
-                    </ul>
-                </div>
-            </div>
-          </section>
-        </header>    
+                  </div>
+            </div>   
+            
+            <div class="social">
+              <div>
+                <a class="network" href="#"><h4>LET'S CONNECT!</h4></a>
+              </div>
+              <div>
+              <ul>
+                  <li >
+                    <a href="twitter.com">
+                      <img class="icons" src="./images/Icon/Twitter.png" alt="twitter">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="linkdin.com">
+                      <img class="icons" src="./images/Icon/LinkedIn.png" alt="LinkedIn">
+                    </a>
+                  </li>
+                  <li >  
+                    <a href="">
+                    <img  class="icons" src="./images/Icon/Disabled.png" alt="disabled">
+                  </a>
+                </li>
+                  <li >
+                    <a href="#">
+                      <img class="icons" src="./images/Icon/Github.png" alt="github">
+                    </a>
+                  </li>
+                  <li >
+                    <a href="#">
+                      <img class="icons" src="./images/Icon/Valid.png" alt="valid">
+                    </a>
+                  </li>
+            </ul>
+          </div>
+        </div>
+        </section>
+      </header>    
           <!----------------------------------------End of Header section--------------------------- -->
           <!-- --------------------------------------Start of Main and Work section 1--------------------------------->
         <main>
@@ -104,10 +108,14 @@
                           <h2 class="owner-name">
                             Tonic
                           </h2>
+                          <h2 class="owner-name2">
+                            Tonic
+                          </h2>
+                         
                         </div>
 
                         <div class="info">
-                            <h3>CANOPY</h3>
+                            <h3 class="info-head">CANOPY</h3>
                             <ul>
                               <li> Back End Dev</li>
                               <li>2015</li>
@@ -133,6 +141,7 @@
 
                       <div >
                         <a  class="btn" href="#">See Project</a>
+                        <a  class="btn-desktop" href="#">See Project</a>
                       </div>
                 </div>
             </section> 
@@ -150,6 +159,9 @@
                 <div class="info-container">
                       <div>
                         <h2 class="owner-name">
+                          Multi-Post Stories
+                        </h2>
+                        <h2 class="owner-name2">
                           Multi-Post Stories
                         </h2>
                       </div>
@@ -176,7 +188,7 @@
                     <div>
                       <ul class="list-of-course">
                             <li><a href="#">html</a></li>
-                            <li id="lang-menu"><a href="#">Ruby on rails</a></li>
+                            <li class="menu-rails"><a href="#">Ruby on rails</a></li>
                             <li><a href="#">css</a></li>
                             <li><a href="#">Javascript</a></li>
                       </ul>
@@ -184,6 +196,7 @@
 
                     <div >
                       <a  class="btn" href="#">See Project</a>
+                      <a  class="btn-desktop" href="#">See Project</a>
                     </div>
                 </div>
           </section>   
@@ -203,10 +216,13 @@
                           <h2 class="owner-name">
                             Tonic
                           </h2>
+                          <h2 class="owner-name2">
+                            FaceBook 360
+                          </h2>
                         </div>
 
                         <div class="info">
-                            <h3>CANOPY</h3>
+                            <h3 class="info-head">CANOPY</h3>
                             <ul>
                               <li> Back End Dev</li>
                               <li>2015</li>
@@ -226,13 +242,15 @@
                       <div>
                         <ul class="list-of-course">
                               <li><a href="#">html</a></li>
+                              <li class="menu-rails"><a href="#">Ruby on rails</a></li>
                               <li><a href="#">css</a></li>
                               <li><a href="#">Javascript</a></li>
                         </ul>
                       </div>
 
-                      <div >
+                      <div>
                         <a  class="btn" href="#">See Project</a>
+                        <a  class="btn-desktop" href="#">See Project</a>
                       </div>
                   </div>
         </section> 
@@ -254,13 +272,18 @@
                           <h2 class="owner-name">
                             Multi-Post Stories
                           </h2>
+                          <h2 class="owner-name2">
+                            Uber Navigation
+                          </h2>
                         </div>
       
                         <div class="info">
-                          <h3>CANOPY</h3>
+                          <h3 class="info-head">Uber</h3>
                           <ul>
-                            <li> BackEnd Dev </li>
-                            <li>2015</li>
+                            <li class="mobile"> BackEnd Dev </li>
+                            <li class="desktop"> uber loader </li>
+                            <li class="mobile">2015</li>
+                            <li class="desktop">2018</li>
                           </ul>
                         </div>
       
@@ -277,6 +300,7 @@
                       <div>
                         <ul class="list-of-course">
                               <li><a href="#">html</a></li>
+                              <li class="menu-rails"><a href="#">Ruby on rails</a></li>
                               <li><a href="#">css</a></li>
                               <li><a href="#">Javascript</a></li>
                         </ul>
@@ -284,6 +308,7 @@
       
                       <div >
                         <a  class="btn" href="#">See Project</a>
+                        <a  class="btn-desktop" href="#">See Project</a>
                       </div>
                 </div>
                 </section>
@@ -321,7 +346,7 @@
                                     <a  class="btn" href="#">Get my Resume</a>
                             </div>
 
-                          <div class="social">
+                          <div >
                             <ul>
                                 <li>
                                     <a href="twitter.com">
@@ -351,8 +376,8 @@
                             </ul>
                         </div>
 
-                        <div>
-                          <a  class="btn" href="#">Get my Resume</a>
+                        <div >
+                          <a  class="btn-desktop" href="#">Get my Resume</a>
                         </div>
                     </div>
                   </div>     
@@ -367,21 +392,26 @@
                                 <img src="./images/Icon/DisabledDownm.png" alt="disabled cheveron">
                               </div>
 
-                              <div class="web-lang">
-                                <img src="./images/Icon/Ellipse 1.png" alt="Javascript">
-                                <h5>Javascript</h5>
-                              </div>
+                            <div class="weblang-container">
 
-                              <div class="web-lang">
-                                  <img src="./images/Icon/Ellipse 2.png" alt="Html">
-                                  <h5>HTML</h5>
-                              </div>
-                          
                                 <div class="web-lang">
-                                  <img src="./images/Icon/Ellipse 3.png" alt="CSS">
-                                  <h5>CSS</h5>
+                                  <img src="./images/Icon/Ellipse 1.png" alt="Javascript">
+                                  <h5>Javascript</h5>
                                 </div>
-                            <div class="separate">
+                           
+  
+                                <div class="web-lang">
+                                    <img src="./images/Icon/Ellipse 2.png" alt="Html">
+                                    <h5>HTML</h5>
+                                </div>
+                            
+                                  <div class="web-lang">
+                                    <img src="./images/Icon/Ellipse 3.png" alt="CSS">
+                                    <h5>CSS</h5>
+                                  </div>
+                              </div>
+                             
+                          <div>
                                   <div class="soft-skill">
                                     <h5 class="language">FrameWorks</h5>
                                     <img src="./images/Icon/CodingLine.png" alt="code cheveron">
@@ -425,7 +455,6 @@
                             <input class="btn-submit" type="submit" name="submit" value="Get in touch">
                           </div>
                       </form>
-
                 </div>
           </section>
       </footer> 
