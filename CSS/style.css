@@ -78,7 +78,6 @@ header {
   padding: 6px;
   margin-left: 15px;
   animation: logo 4s 2s 4s;
-  
 }
 
 .humber {
@@ -602,16 +601,17 @@ textarea:focus {
   outline: none;
 }
 
-
 @keyframes logo {
-  0%{
-    transform: rotateX(90degree);
+  0% {
+    transform: rotateX(90);
   }
-  50%{
-    transform: rotate(180 degree);
+
+  50% {
+    transform: rotate(180);
   }
-  100%{
-    transform: rotate(360 degree);
+
+  100% {
+    transform: rotate(360);
   }
 }
 

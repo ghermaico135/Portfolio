@@ -294,6 +294,7 @@ header {
   border-radius: 16px;
   transition: ease-in-out 3s;
 }
+
 .btn-desktop:enabled {
   color: var(--skyblue);
   border-color: var(--skyblue);
