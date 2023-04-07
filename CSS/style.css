@@ -77,6 +77,7 @@ header {
   color: var(--primary-color);
   padding: 6px;
   margin-left: 15px;
+  animation: logo 4s 2s 4s;
 }
 
 .humber {
@@ -592,11 +593,26 @@ input[type=submit] {
 .btn-submit:hover {
   color: var(--white);
   background: var(--primary-color);
+  transition: ease-out 2s;
 }
 
 input:focus,
 textarea:focus {
   outline: none;
+}
+
+@keyframes logo {
+  0% {
+    transform: rotateX(90);
+  }
+
+  50% {
+    transform: rotate(180);
+  }
+
+  100% {
+    transform: rotate(360);
+  }
 }
 
 /* ====================================================Desktop version============================================================================= */
