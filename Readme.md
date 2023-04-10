@@ -42,7 +42,7 @@ Html and css
   <summary>Client</summary>
   <ul>
     <li><a href="https://github.com/ghermaico135/Portfolio">portfolio</a></li>
-    <li><a href="https://ghermaico135.github.io/Portfolio/">portfolio</a></li>
+    <li><a href="https://ghermaico135.github.io/Portfolio/">online version portfolio</a></li>
     
   </ul>
 </details>
