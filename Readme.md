@@ -1,8 +1,10 @@
-#Readme Portfolio Mobile responsive
+<!-- @format -->
+
+#Readme Portfolio Mobile and Desktop responsive version
 
   <div align="center">
 
-  <h3><b>Portfolio Mobile responsive</b></h3>
+  <h3><b>Portfolio Mobile and Desktop responsive</b></h3>
 
 </div>
 <!-- TABLE OF CONTENTS -->
@@ -26,9 +28,9 @@
 
 # 📖 [portfolio]
 
-**[portfolio mobile responsive]** This project gives a documented work experience and history of projects done.Also mastering and configuring all the tools and best practices I've learned about how to document my work in a professional
-way considering proper Github workflow and especially using other technical
+**[Portfolio Mobile and Desktop responsive]** This project gives a documented work experience and history of projects done.Also mastering and configuring all the tools and best practices I've learned about how to document my work in a professional way considering proper Github workflow ,deploying on github page and especially using other technical
 topics like html-css linters and github pull requests.
+Responsiveness to any plate form
 
 ## 🛠 Built With
 
@@ -40,6 +42,7 @@ Html and css
   <summary>Client</summary>
   <ul>
     <li><a href="https://github.com/ghermaico135/Portfolio">portfolio</a></li>
+    <li><a href="https://ghermaico135.github.io/Portfolio/">portfolio</a></li>
     
   </ul>
 </details>
@@ -94,7 +97,8 @@ vscode with the command `code .`
 
 You can deploy this project using:
 
-Github Page
+Github Page and uses this link to access the page
+"https://ghermaico135.github.io/Portfolio/"
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +115,7 @@ Github Page
 - [ ] **[Portfolio summary]**
 - [ ] **[Work done features and links]**
 - [ ] **[Language used for design]**
-- [ ] **[contact forms]**
+-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
