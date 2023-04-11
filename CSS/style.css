@@ -478,9 +478,9 @@ form {
   margin-top: 2rem;
 }
 
-/* .separate {
-
-} */
+.invisible{
+  display: none;
+}
 
 .soft-skill {
   display: flex;
@@ -497,7 +497,7 @@ form {
   background-color: #ecdede;
 }
 
-.web-lang h5 {
+.web-lang h3 {
   position: relative;
   height: 24px;
   font-style: normal;

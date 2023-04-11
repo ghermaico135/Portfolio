@@ -48,7 +48,7 @@ header {
   font-size: 15px;
   line-height: 20px;
   color: #344563;
-  transform: scale(0.8);
+  transform: scale(1);
   transition: ease-in-out;
 }
 
@@ -361,7 +361,8 @@ header {
   height: 60px;
 }
 
-.web-lang h5 {
+.web-lang h3 {
+  font-size: 14px;
   margin: 0.1rem 1rem;
 }
 
