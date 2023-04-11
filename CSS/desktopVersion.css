@@ -43,7 +43,7 @@ header {
   justify-content: space-between;
   align-items: end;
   margin: 4px 8px;
-  /* font-weight: 500; */
+  font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   color: #344563;
@@ -117,7 +117,7 @@ header {
 .Portfolio-Desk-Card {
   display: inline;
   width: 100%;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 
 .info-container {
