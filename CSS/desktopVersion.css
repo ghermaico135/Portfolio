@@ -1,5 +1,4 @@
 /* @media (min-width: 768px) { */
-
 .wrapper {
   height: 90vh;
   margin: 0 auto;
@@ -143,8 +142,8 @@ header {
 .owner-name2 {
   display: block;
   width: 100%;
-  height: 46px;
-  font-size: 40px;
+  height: 36px;
+  font-size: 30px;
   line-height: 52px;
   text-align: left;
   font-style: normal;
@@ -163,14 +162,16 @@ header {
 
 .info-head2 {
   display: block;
-  width: 75px;
+  width: 70px;
   height: 24px;
   font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 15px;
   line-height: 24px;
   color: #344563;
-  margin: 0.1rem 0 0 0;
+  margin: 0.1rem 0 0.3rem 0;
+
+  /* padding: 3px; */
 }
 
 .info-head {
@@ -178,8 +179,9 @@ header {
 }
 
 .list-of-course li {
-  width: 25%;
-  height: 24px;
+  width: 35%;
+  height: 40px;
+  padding: 10px;
 }
 
 .menu-rails {
@@ -191,7 +193,7 @@ header {
   color: #6070ff;
   background: #ebebff;
   border-radius: 8px;
-  padding: 2px;
+  padding: 3px;
   margin-right: 0.2rem;
 
   /* text-align: center; */
@@ -269,9 +271,25 @@ header {
 .about-myself {
   width: 100%;
   height: 50px;
+  font-size: 33px;
+  margin: 32px 0 0 2px;
+  padding: 8px;
 
-  /* margin: 32px 0 0 2px; */
-  padding: 4px;
+  /* border:1px solid red; */
+}
+
+.about-content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 4px 0 1px 0;
+  padding: 6px 10px;
+  color: var(--dark-blue);
+
+  /* border: 3px solid blue; */
+
+  /* display: flex; */
+  justify-content: center;
 }
 
 .btn-desktop {
@@ -361,7 +379,7 @@ header {
   height: 60px;
 }
 
-.web-lang h3 {
+.web-lang h4 {
   font-size: 14px;
   margin: 0.1rem 1rem;
 }
@@ -419,5 +437,3 @@ textarea {
 input[type=submit] {
   float: center;
 }
-
-/* } */
