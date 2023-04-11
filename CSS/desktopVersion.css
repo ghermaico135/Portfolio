@@ -43,7 +43,7 @@ header {
   justify-content: space-between;
   align-items: end;
   margin: 4px 8px;
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 15px;
   line-height: 20px;
   color: #344563;
@@ -117,7 +117,7 @@ header {
 .Portfolio-Desk-Card {
   display: inline;
   width: 100%;
-  border-radius: 8px;
+  border-radius: 16px;
 }
 
 .info-container {
@@ -170,8 +170,6 @@ header {
   line-height: 24px;
   color: #344563;
   margin: 0.1rem 0 0.3rem 0;
-
-  /* padding: 3px; */
 }
 
 .info-head {
@@ -195,8 +193,6 @@ header {
   border-radius: 8px;
   padding: 3px;
   margin-right: 0.2rem;
-
-  /* text-align: center; */
 }
 
 .info ul li {
@@ -225,13 +221,6 @@ header {
   padding: 0.4rem;
 }
 
-/* .btn {
-  width: 30%;
-  height: 3rem;
-  margin-top: 1rem;
-  padding: 0.4rem;
-} */
-
 .flex-order {
   order: 2;
 }
@@ -241,10 +230,6 @@ header {
   position: relative;
   width: 100%;
   border-top-right-radius: 16%;
-
-  /* height: 100%; */
-
-  /* border: 2px solid blue; */
 }
 
 .about-section {
@@ -253,8 +238,6 @@ header {
   justify-content: start;
   align-items: center;
   padding: 4rem 10rem;
-
-  /* border: 2px solid blue; */
 }
 
 .about-container {
@@ -263,8 +246,6 @@ header {
   justify-content: center;
   align-items: center;
   margin-left: 4rem;
-
-  /* border: 2px solid green; */
   flex: 1;
 }
 
@@ -274,8 +255,6 @@ header {
   font-size: 33px;
   margin: 32px 0 0 2px;
   padding: 8px;
-
-  /* border:1px solid red; */
 }
 
 .about-content {
@@ -285,10 +264,6 @@ header {
   margin: 4px 0 1px 0;
   padding: 6px 10px;
   color: var(--dark-blue);
-
-  /* border: 3px solid blue; */
-
-  /* display: flex; */
   justify-content: center;
 }
 
@@ -347,15 +322,12 @@ header {
 
 .soft-skill {
   display: flex;
-
-  /* flex-direction: column; */
   justify-content: space-between;
   align-self: center;
   border-bottom: 1px solid #ccc;
 }
 
 .weblang-container {
-  /* border: 4px solid blue; */
   display: flex;
   justify-content: start;
   align-items: start;
@@ -392,8 +364,6 @@ header {
   justify-content: center;
   align-items: center;
   position: absolute;
-
-  /* margin-top: -4rem; */
 }
 
 .contact-content {
