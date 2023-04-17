@@ -109,6 +109,7 @@ header {
   width: 35%;
   margin: 0;
   padding: 0.1rem;
+  border: 2px solid red;
 }
 
 .snapShoot-portofolio {
@@ -252,7 +253,7 @@ header {
   align-items: center;
   padding: 4rem 10rem;
 
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
 }
 
 .about-container {
@@ -325,6 +326,7 @@ header {
 .language-container {
   margin-top: 0.5rem;
   flex: 1;
+  border: 2px solid blue;
 }
 
 .soft-skill {
@@ -376,6 +378,7 @@ header {
 
   /* margin-top: -4rem; */
 }
+
 
 .contact-content {
   width: 100%;
