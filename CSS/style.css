@@ -63,12 +63,11 @@ body {
   opacity: 90%;
 }
 
-.mobile-menu ul{
+.mobile-menu ul {
   flex-direction: column;
   padding: 1rem;
-  
 }
-.mobile-menu ul li{
+.mobile-menu ul li {
   margin-bottom: 1rem;
 }
 
@@ -82,14 +81,9 @@ body {
   border: 2px solid red;
 }
 
-
 .mobile-menu-close-btn {
-  border:2px solid red;
-  align-self:end ;
-}
-
-.mobile-menu-toggler{
-  display: none;
+  border: 2px solid red;
+  align-self: end;
 }
 
 /* ---------------------------------------------menu end----------------------------- */
@@ -595,8 +589,8 @@ form {
   margin: 12px 24px 0 24px;
 }
 
-input[type=text],
-input[type=email],
+input[type='text'],
+input[type='email'],
 textarea {
   font-weight: 400;
   font-size: 20px;
@@ -608,7 +602,7 @@ textarea {
   color: #000;
 }
 
-input[type=text] {
+input[type='text'] {
   border: 1px solid orange;
   border-radius: 0;
 }
@@ -617,7 +611,7 @@ textarea {
   color: #172b4d;
 }
 
-input[type=submit] {
+input[type='submit'] {
   padding: 16px 12px;
   width: 80%;
   border-radius: 15px;
