@@ -60,21 +60,26 @@ body {
   gap: 2rem;
 }
 
+.list-of-course a {
+  text-decoration: none;
+  color: #396df2;
+  margin-left: -3px;
+}
+
 .mobile-menu li a {
   font-size: 2rem;
   font-weight: 500;
   line-height: 2.5rem;
   color: #fff;
   text-decoration: none;
-
 }
+
 .mobile-menu-close-btn {
   align-self: end;
 }
 
-
-
 /* header nav */
+
 .top-nav {
   display: flex;
   justify-content: space-between;
@@ -106,7 +111,8 @@ header {
   margin-left: 15px;
   text-decoration: none;
   font-size: 20px;
-  animation: logo 4s 2s 4s;
+
+  /* animation: logo 4s 2s 4s; */
 }
 
 .humber {
@@ -199,7 +205,7 @@ ul {
 /* social icons */
 .icons {
   align-self: start;
-  size: 30px;
+  font-size: 30px;
   border-radius: 0;
   width: 40px;
   margin: 5px 2px 0 0;
@@ -224,7 +230,7 @@ ul {
 
   .icons {
     width: 30px;
-    size: 25px;
+    font-size: 25px;
   }
 }
 
@@ -243,6 +249,7 @@ ul {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 1.3rem;
+  z-index: 5;
 }
 
 .snapShoot-portfolio {
@@ -332,12 +339,6 @@ ul {
   align-items: center;
   margin: 0.4rem 0 0 -0.3rem;
   padding: 0.3rem;
-}
-
-.list-of-course a {
-  text-decoration: none;
-  color: #396df2;
-  margin-left: -3px;
 }
 
 .list-of-course a:hover {
@@ -620,20 +621,6 @@ input[type=submit] {
 input:focus,
 textarea:focus {
   outline: none;
-}
-
-@keyframes logo {
-  0% {
-    transform: rotateX(90);
-  }
-
-  50% {
-    transform: rotate(180);
-  }
-
-  100% {
-    transform: rotate(360);
-  }
 }
 
 /* ====================================================Desktop version============================================================================= */
