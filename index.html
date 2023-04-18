@@ -24,7 +24,7 @@
               </div>        
               <ul class="humber">
                         <li>
-                          <img class="vector" src="./images/Img/Union.png" alt="humbugger-icon">
+                          <img id="humber-icon" class="vector" src="./images/Img/Union.png" alt="humbugger-icon">
                         </li>
                         <li class="menu">
                           <a href="#">Portfolio</a>
@@ -36,6 +36,24 @@
                           <a href="#">contact</a>
                         </li>
               </ul>
+              <!--mobile menu -->
+              <div class="mobile-menu">
+                <div class="mobile-menu-close-btn">
+                    <img  src="./images/Icon/mobile_exit_Icon.png" alt="exit-icon"> 
+                </div>
+                <ul>
+                  <li>
+                    <a href="#portfolio-section" class="menu-link">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#about-section" class="menu-link">About</a>
+                  </li>
+                  <li>
+                    <a href="#contact-section" class="menu-link">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              
           </section>
       </div>
       <header>
@@ -96,7 +114,7 @@
       </header>    
           <!----------------------------------------End of Header section--------------------------- -->
           <!-- --------------------------------------Start of Main and Work section 1--------------------------------->
-        <main>
+        <main id="portfolio-section">
             <section class="work-section">
                   <div class="image-container">
 
@@ -321,7 +339,7 @@
       <footer>   
           <section class="footer-container">
               <!-- <section> -->
-            <div class="about-section">
+            <div class="about-section" id="about-section">
                 <!--------------------- about container --------------------------------->
               <div class="about-container">
                     <div class="aboutmyself-content">
@@ -430,7 +448,7 @@
           </div> 
           </section> 
               <!-- -------------------------------------------------------------contact form ---------------------------------------------------------- -->
-          <section class="contact-section">
+          <section class="contact-section" id="contact-section">
                 <div class="contact-content">
                   
                         <div class="contact-me">
@@ -467,5 +485,6 @@
       </footer> 
                                   <!---------------------------------------------footer ------------------------------------------------------- -->
   </div>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
