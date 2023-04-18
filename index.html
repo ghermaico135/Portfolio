@@ -37,20 +37,23 @@
                         </li>
               </ul>
               <!--mobile menu -->
-              <ul id="mobile-menu" class="mobile-menu">
-                <li class="mobile-menu-close-btn" >
-                  <a href="#!">x</a>
-                </li>
-                <li>
-                  <a href="#">Portfolio</a>
-                </li>
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">contact</a>
-                </li>
-              </ul>
+              <div class="mobile-menu mobile-menu-toggler">
+                <div class="mobile-menu-close-btn">
+                    <img class="mobile-menu-close-btn" src="./images/Icon/mobile_exit_Icon.png" alt="exit-icon"> 
+                </div>
+                <ul>
+                  <li>
+                    <a href="#portfolio-section" class="menu-link">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#about-section" class="menu-link">About</a>
+                  </li>
+                  <li>
+                    <a href="#contact-section" class="menu-link">contact</a>
+                  </li>
+                </ul>
+              </div>
+              
           </section>
       </div>
       <header>
@@ -111,7 +114,7 @@
       </header>    
           <!----------------------------------------End of Header section--------------------------- -->
           <!-- --------------------------------------Start of Main and Work section 1--------------------------------->
-        <main>
+        <main id="portfolio-section">
             <section class="work-section">
                   <div class="image-container">
 
@@ -336,7 +339,7 @@
       <footer>   
           <section class="footer-container">
               <!-- <section> -->
-            <div class="about-section">
+            <div class="about-section" id="about-section">
                 <!--------------------- about container --------------------------------->
               <div class="about-container">
                     <div class="aboutmyself-content">
@@ -445,7 +448,7 @@
           </div> 
           </section> 
               <!-- -------------------------------------------------------------contact form ---------------------------------------------------------- -->
-          <section class="contact-section">
+          <section class="contact-section" id="contact-section">
                 <div class="contact-content">
                   
                         <div class="contact-me">
