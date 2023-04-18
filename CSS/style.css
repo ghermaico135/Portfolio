@@ -150,7 +150,8 @@ header {
   margin-left: 15px;
   text-decoration: none;
   font-size: 20px;
-  animation: logo 4s 2s 4s;
+
+  /* animation: logo 4s 2s 4s; */
 }
 
 .humber {
@@ -221,7 +222,7 @@ header {
 
 .icons {
   align-self: start;
-  size: 30px;
+  font-size: 30px;
   border-radius: 0;
   width: 40px;
   margin: 5px 2px 0 0;
@@ -246,7 +247,7 @@ header {
 
   .icons {
     width: 30px;
-    size: 25px;
+    height: 25px;
   }
 }
 
@@ -636,20 +637,6 @@ input[type='submit'] {
 input:focus,
 textarea:focus {
   outline: none;
-}
-
-@keyframes logo {
-  0% {
-    transform: rotateX(90);
-  }
-
-  50% {
-    transform: rotate(180);
-  }
-
-  100% {
-    transform: rotate(360);
-  }
 }
 
 /* ====================================================Desktop version============================================================================= */
