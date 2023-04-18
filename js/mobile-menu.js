@@ -15,8 +15,8 @@ mobileMenuIcon.addEventListener('click', (e) => {
 
 mobileMenuClose.addEventListener('click', (e) => {
   e.preventDefault();
-  // mobileMenu.style.display = 'none';
-  mobileMenu.classList.toggle('mobile-menu-toggler');
+  mobileMenu.style.display = 'none';
+  // mobileMenu.classList.toggle('mobile-menu-toggler');
 });
 
 menuLink.forEach((link) => {
