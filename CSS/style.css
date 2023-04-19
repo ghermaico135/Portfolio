@@ -30,21 +30,7 @@ body {
   display: none;
 }
 
-.popup-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: 10;
-  background-color: grey;
-  /* display: none; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
+
 
 /* ===================================================header================================================================================= */
 
@@ -151,7 +137,7 @@ header {
 
 .list-of-course li {
   width: 75px;
-  height: 24px;
+  /* height: 24px; */
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -646,71 +632,113 @@ textarea:focus {
   outline: none;
 }
 
-/* ====================================================Desktop version============================================================================= */
 
-/* =============================================Modal+++++++++++++++++++++++++++++++++++++ */
+/* =============================================Modal mobile+++++++++++++++++++++++++++++++++++++ */
+  .popup-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120vh;
+    z-index: 10;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    opacity: 0.9;
+    margin: 0 auto;
+   
+  }
 
-/* .modal-popup{
-  margin: 0 auto;
-  width: 80%;
-  height: 100vh;
-  border: 4px solid blue;
-  padding: 4rem;
-  background: rgba(228, 219, 217, 0.979);
-} */
 
-.modal-container {
-  width: 80%;
-  /* height: 100%; */
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  background: var(--white);
-  z-index: 4;
-  padding: 2rem;
-  border-radius: 2%;
-  border: 4px solid red;
-  margin-top: 100px;
-  /* margin-bottom: 100px; */
-}
+
+  .modal-container {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background: var(--white);
+    z-index: 4;
+    padding: 1rem;
+    border-radius: 4%;
+    border: 4px solid red;
+  }
+
 
 .modal-header {
   display: flex;
-  justify-content: space-between;
   border: 2px solid blue;
-  width: 100%;
+  width: 90%;
+  height: 50px;
 }
 
-.modal-close-btn {
+.modal-close-btn img {
+  width: 30px;
+  height: 10px;
   border: 4px solid green;
 }
 
-.modal-image-container {
-  margin: 0 auto;
-  /* width: 80%; */
-}
+
 
 .modal-bottom-container {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid black;
+    width: 100%;
+    padding: 4px;
+    
+  }
+
+  .details{
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    flex: none;
+    padding: 0.4rem;
+   
+  }
+
+  .side-container {
+    display: flex;
+    width:100%;
+    height: 20vh;
+  }
+
+  .flex-wrap {
+    display: flex;
+    border: 4px solid black;
+  }
+
+  .project-detail-btn-container {
+  border: 3px solid red;
   display: flex;
-  flex-direction: column;
+  width: 100%;
   justify-content: start;
-  align-items: center;
-  border: 4px solid black;
-  /* height: 40%; */
+  align-self: center;
+  margin:3rem;
+gap: 4px;
+}
+.project-detail-btn{
+  position: relative;
+  height: 40px;
+  margin-left: 6px;
+  transition: none;
 }
 
-.paragraph {
-  border: 4px solid green;
-  font-size: 17px;
-  /* line-height: 17; */
-  padding: 2px;
-  margin-bottom: 1rem;
+.project-detail-btn img{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
-.project-detail-btn {
-  display: flex;
-}
+
 
 /* ===================================================================Desktop version======================================================== */
 
@@ -784,7 +812,6 @@ textarea:focus {
   }
 
   .greeting {
-    /* width: 80%; */
     height: 122px;
     font-weight: 700;
     font-size: 48px;
@@ -893,7 +920,7 @@ textarea:focus {
   }
 
   .list-of-course li {
-    width: 35%;
+    /* width: 75%; */
     height: 40px;
     padding: 10px;
   }
@@ -1120,17 +1147,109 @@ textarea:focus {
     border-radius: 2px;
   }
 
-  input[type='submit'] {
-    /* float: center; */
-  }
 
   /* --------------------------modal------------------------------------ */
-  .modal-bottom-container {
+  .popup-container {
+ 
+    height: 114vh;
+
+  }
+  
+  .modal-container {
+    width: 60%;
+    height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: center;
+    margin-top: 100px;
+  }
+
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 0;
+}
+
+.modal-close-btn {
+  
+}
+
+.modal-image-container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.modal-bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  gap: 12px;
+  /* height: 50vh; */
+  width: 100%;
+  margin-top: 1rem;
+  /* padding: 4px; */
+}
+
+
+
+  .details{
+    width: 100%;
+    display: flex;
+    flex: 1;
+  }
+
+  .side-container {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    flex: 1;
+    padding: 4px;
+    border: 5px solid green;
+  }
+
+  .flex-wrap {
+    display: flex;
     border: 4px solid black;
-    /* height: 40%; */
+  }
+
+  .flex-wrap li{
+    width: 100px;
+    
+    /* flex-wrap: ; */
+  }
+
+  .project-detail-btn-container {
+  border: 3px solid red;
+  display: flex;
+  flex-direction: center;
+  margin-top: 2rem;
+  height: 80px;
+
+}
+/* .project-detail-btn{
+  position: relative;
+  height: 40px;
+  margin-left: 6px;
+  transition: none;
+  
+} */
+
+/* .project-detail-btn img{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+} */
+
+}
+
+
+@media (max-width < 375px) {
+  .side-container{
+    flex-direction: column;
+    border: 1px solid blue;
   }
 }

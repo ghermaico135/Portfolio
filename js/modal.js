@@ -3,11 +3,10 @@
 // Inside the loop you will give click event listener to each one
 // Inside each event listener you will loop inside project array
 // then fetch data from object to popup
-const seeProjectBtns = document.querySelectorAll('.card-popup-btn');
-const workSectionContainer = document.querySelector('.work-section');
-const wrapperContainer = document.querySelector('.wrapper');
 
-// console.log(wrapperContainer);
+const seeProjectBtns = document.querySelectorAll('.card-popup-btn');
+const modalCloseBtn = document.querySelector('.modal-close-btn');
+const popupContainer = document.querySelector('.popup-container')
 
 const project = [
   {
@@ -24,7 +23,8 @@ const project = [
     aboutProjectDsk:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technology: ['html', 'css', 'Javascript'],
-    details: 'See Project',
+    liveDemo: "https://ghermaico135.github.io/Portfolio/",
+    source:"https://github.com/ghermaico135/Portfolio.git"
   },
   {
     imgMobile: '../images/Img/Snapshoot PortfolioOne.png',
@@ -40,7 +40,8 @@ const project = [
     aboutProjectDsk:
       'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     technology: ['html', 'ruby on rails', 'css', 'Javascript'],
-    details: 'See Project',
+    liveDemo: "https://ghermaico135.github.io/Portfolio/",
+    source:"https://github.com/ghermaico135/Portfolio.git"
   },
   {
     imgMobile: '../images/Img/Snapshoot Portfolio.png',
@@ -56,7 +57,8 @@ const project = [
     aboutProjectDsk:
       "Exploring the future of media in Facebook's first Virtual Reality app;a place to discover and enjoy 360 photos and videos on Gear VR..",
     technology: ['html', 'ruby on rails', 'css', 'Javascript'],
-    details: 'See Project',
+    liveDemo: "https://ghermaico135.github.io/Portfolio/",
+    source:"https://github.com/ghermaico135/Portfolio.git"
   },
   {
     imgMobile: '../images/Img/Snapshoot PortfolioOne.png',
@@ -70,11 +72,12 @@ const project = [
     year: 2015,
     yearDesk: 2018,
     aboutProjectMob:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque ullam error aperiam! Illoeum porro molestiae iste nobis! Esse quos placeat deleniti cum, ad molestias nulla tempora ipsumrepellendus! Assumenda eveniet obcaecati, hic, velit molestiae vitae provident rerum error eligendi officiisexercitationem sequi at cupiditate blanditiis vero laudantium non neque!',
     aboutProjectDsk:
       '   A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     technology: ['html', 'ruby on rails', 'css', 'Javascript'],
-    details: 'See Project',
+    liveDemo: "https://ghermaico135.github.io/Portfolio/",
+    source:"https://github.com/ghermaico135/Portfolio.git"
   },
 ];
 // console.log(seeProjectBtns)
@@ -86,64 +89,64 @@ seeProjectBtns.forEach((cardBtn, indexBtn) => {
         // console.log("hi")
         const div = document.createElement('div');
         div.innerHTML = `
-        <div class="popup-container" style="border:1px solid red">
+      <div class="popup-container" style="border:1px solid red">
 
         <div class="modal-container">
             <div class="modal-header">
                 <div>
                   <h2 class="owner-name">
-                  ${card.ownerDesk}
-
+                  ${card.ownerMobile}
                 </h2>
                 <h2 class="owner-name2">
-                ${card.ownerMobile}
+                ${card.ownerDesk}
                 </h2>
                 </div>
                 <div class="modal-close-btn" >
-                  <a href="#!">x</a>
+                <img  src="../images/Icon/mobile_exit_Icon.png" alt="exit-icon"> 
                 </div>
             </div>
 
               <div class="info">
-                <h3 class="info-head">CANOPY</h3>
-                <h3 class="info-head2">FaceBook</h3>
+                <h3 class="info-head">${card.mobileInfO}</h3>
+                <h3 class="info-head2">${card.DeskInfO}</h3>
                 <ul>
-                  <li> FullStack Dev </li>
-                  <li>2015</li>
+                  <li> ${card. profession} </li>
+               
+                  <li>${card.year}</li>
                 </ul>
               </div>
 
               <div class="modal-image-container">
                 <img class="snapShoot-portfolio" src=${card.imgMobile} alt="mobile-Snapshot-Portfolio-one">
-                <img class="Portfolio-Desk-Card" src=${card.imgDesktop} alt="desktop-snapShoot-portfolio">
+                <img class="Portfolio-Desk-Card" src="${card.imgDesktop}" alt="desktop-snapShoot-portfolio">
               </div>
 
               <div class="modal-bottom-container">
-                <div >
-                  <p class="paragraph">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque ullam error aperiam! Illo
-                    eum porro molestiae iste nobis! Esse quos placeat deleniti cum, ad molestias nulla tempora ipsum
-                    repellendus! Assumenda eveniet obcaecati, hic, velit molestiae vitae provident rerum error eligendi officiis
-                    exercitationem sequi at cupiditate blanditiis vero laudantium non neque!
-                  </p>
-                </div>
-                  <div>
-                      <ul class="list-of-course flex-wrap">
-                            <li><a href="#">html</a></li>
-                            <li class="menu-rails"><a href="#">Ruby on rails</a></li>
-                            <li><a href="#">css</a></li>
-                            <li><a href="#">Javascript</a></li>
-                      </ul>
-                  </div>
+                    <div>
+                      <p class="paragraph">
+                      
+                      ${card.aboutProjectMob}
+                      </p>
+                    </div>
 
-                  <div class="project-detail-btn">
-                    <a  class="btn" href="https://ghermaico135.github.io/Portfolio/">Live demo</a>
-                    <a  class="btn" href="https://github.com/ghermaico135/Portfolio.git">Source</a>
-                </div>
+                      <div>
+                        <div>
+                          <ul class="list-of-course flex-wrap">
+                          <li><a href="#"> ${card.technology[0]}</a></li>
+                          <li class="menu-rails"><a href="#">${card.technology[1]}</a></li>
+                          <li><a href="#">${card.technology[2]}</a></li>
+                          <li><a href="#">${card.technology[3]}</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="project-detail-btn">
+                          <a  class="btn" href="${card.liveDemo}">Live demo</a>
+                          <a  class="btn" href="${card.source}">Source</a>
+                        </div>
+                      </div>
               </div>
-
         </div>
-            </div>
+      </div>
 
         `;
         document.body.appendChild(div);
@@ -151,5 +154,11 @@ seeProjectBtns.forEach((cardBtn, indexBtn) => {
     });
   });
 });
+
+
+modalCloseBtn.addEventListener('click' ,() =>{
+  popupContainer.style.display ="none"
+   console.log("hey")
+})
 
 // Main.appendChild(section1);
