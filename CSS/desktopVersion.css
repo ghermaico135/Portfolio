@@ -407,3 +407,15 @@ textarea {
 input[type=submit] {
   /* float: center; */
 }
+
+/* --------------------------modal------------------------------------ */
+.modal-bottom-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border: 4px solid black;
+  /* height: 40%; */
+}
+
+.flex-wrap{}

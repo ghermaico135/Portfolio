@@ -30,6 +30,19 @@ body {
   display: none;
 }
 
+.popup-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background-color: grey;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
 /* ===================================================header================================================================================= */
 
 .toolbar-container {
@@ -244,18 +257,22 @@ ul {
   gap: 12px;
   width: 375px;
 
-  /* height: 552px; */
+  height:auto;
   background: var(--white);
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 1.3rem;
-  z-index: 5;
+  /* z-index: 5; */
 }
 
+.image-container{
+  order: 0;
+}
 .snapShoot-portfolio {
   width: 100%;
   height: 220px;
   border-radius: 8px;
+
 }
 
 .Portfolio-Desk-Card {
@@ -285,6 +302,10 @@ ul {
   align-items: stretch;
   margin: 0.5rem 0 0.5rem 0;
 }
+
+/* .info-container{
+  order: 0;
+} */
 
 .info-head {
   width: 55px;
@@ -624,3 +645,66 @@ textarea:focus {
 }
 
 /* ====================================================Desktop version============================================================================= */
+
+/* =============================================Modal+++++++++++++++++++++++++++++++++++++ */
+
+/* .modal-popup{
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+  border: 4px solid blue;
+  padding: 4rem;
+  background: rgba(228, 219, 217, 0.979);
+} */
+
+.modal-container{
+  width: 80%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  background: var(--white);
+  z-index: 4;
+  padding: 2rem;
+  border-radius: 2%;
+  border: 4px solid red;
+}
+
+.modal-header{
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid blue;
+  width: 100%;
+
+}
+
+.modal-close-btn{
+  border: 4px solid green;
+}
+
+.modal-image-container{
+  margin: 0 auto;
+  /* width: 80%; */
+}
+
+.modal-bottom-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border: 4px solid black;
+  /* height: 40%; */
+}
+
+.paragraph{
+  border: 4px solid green;
+  font-size: 17px;
+  /* line-height: 17; */
+  padding: 2px;
+  margin-bottom: 1rem;
+}
+
+.project-detail-btn{
+  display: flex;
+}
