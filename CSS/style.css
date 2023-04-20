@@ -480,9 +480,9 @@ ul {
   color: #396df2;
 }
 
-form > div {
+/* form > div {
   margin-top: 0.5rem;
-}
+} */
 
 .language {
   margin: 1.2rem 0.5rem 0.7rem 0.5rem;
@@ -543,7 +543,7 @@ form {
 /* ==========================================contact-form========================================================== */
 .contact-section {
   width: 375px;
-  height: 775px;
+  height: 100vh;
   background: #6070ff;
   border-top-left-radius: 15%;
   display: flex;
@@ -609,7 +609,7 @@ textarea {
 
 input[type='submit'] {
   padding: 16px 12px;
-  width: 80%;
+  /* width: 80%; */
   border-radius: 15px;
   font-weight: 500;
   font-size: 20px;
@@ -631,6 +631,29 @@ input:focus,
 textarea:focus {
   outline: none;
 }
+
+/* =====================================form validation css======================== */
+
+.form-input{
+  margin-bottom: .4rem;
+}
+
+.errorMsg{
+  font-size: 24px;
+  color: red;
+  font-weight: 500;
+  padding:0.3rem;
+  margin-top: 0.3rem;
+  margin-right: 1rem;
+  float:right;
+  background-color: var(--white);
+  opacity: 0.9;
+  border-radius: 5px;
+  height: 40px;
+  visibility: hidden;
+}
+
+
 
 
 /* =============================================Modal mobile+++++++++++++++++++++++++++++++++++++ */
@@ -1147,10 +1170,13 @@ gap: 4px;
     border-radius: 2px;
   }
 
+  .errorMsg{
+    padding:0.4rem;
+    margin-right:0;
+  }
 
   /* --------------------------modal------------------------------------ */
   .popup-container {
- 
     height: 114vh;
 
   }
@@ -1171,9 +1197,6 @@ gap: 4px;
   height: 0;
 }
 
-.modal-close-btn {
-  
-}
 
 .modal-image-container {
   margin: 0 auto;

@@ -469,24 +469,28 @@
                               </p>
                         </div>
                       <form action="https://formspree.io/f/xdovwvbg" method="post">
-                          <div>
+                          <div class="form-input">
                             <label class="invisible" for="userName">UserName</label>
-                            <input type="text" name="userName" id="userName" maxlength="30" placeholder="userName" required>
+                            <input type="text"  name="userName" id="userName" maxlength="30" placeholder="userName" required><span class="error"></span>
                           </div>
-                          <div>
+                          <div class="form-input">
                             <label class="invisible" hidden for="email">Email</label>
                             <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
                           </div>
-              
-                          <div>
+                          <div class="form-input">
                             <label class="invisible" for="message">Write Comment</label>
                             <textarea name="msg" id="message" cols="30" rows="6" maxlength="500"  placeholder="write your message here" required></textarea>
                           </div>
-              
                           <div>
-                            <input class="btn-submit" type="submit" name="submit" value="Get in touch">
+                            <input type="submit" id="submit" name="submit" value="Get in touch">
                           </div>
-                      </form>
+                        </form>
+
+                          <div class="errorMsg">
+                            <small class="small">Email should be in lowercase</small>
+                          </div>
+                        
+              
                 </div>
           </section>
       </footer> 
@@ -494,7 +498,7 @@
   </div>
 
   <!-- ================================================================================================================================ -->
-  <div class="popup-container" style="border:1px solid red">
+  <!-- <div class="popup-container" style="border:1px solid red">
 
     <div class="modal-container">
         <div class="modal-header">
@@ -566,11 +570,12 @@
                   </div>
           </div>
     </div>
-  </div>
+  </div> -->
 
 
 <!-- ====================================================================================================================================== -->
   <script src="./js/mobile-menu.js"></script>
   <!-- <script src="./js/modal.js"></script> -->
+  <script src="./js/validation-form.js"></script>
 </body>
 </html>
