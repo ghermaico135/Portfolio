@@ -25,13 +25,6 @@ body {
   margin: 0 auto;
 }
 
-.menu-rails,
-.desktop {
-  display: none;
-}
-
-
-
 /* ===================================================header================================================================================= */
 
 .toolbar-container {
@@ -80,8 +73,6 @@ body {
   align-self: end;
 }
 
-/* header nav */
-
 .top-nav {
   display: flex;
   justify-content: space-between;
@@ -102,7 +93,6 @@ header {
   margin-top: -2.5rem;
 }
 
-/* mylogo */
 .logo {
   width: 80px;
   height: 20px;
@@ -113,8 +103,6 @@ header {
   margin-left: 15px;
   text-decoration: none;
   font-size: 20px;
-
-  /* animation: logo 4s 2s 4s; */
 }
 
 .humber {
@@ -137,7 +125,6 @@ header {
 
 .list-of-course li {
   width: 75px;
-  /* height: 24px; */
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -149,8 +136,6 @@ header {
   margin-right: 0.2rem;
   text-align: center;
 }
-
-/*  Section header section  */
 
 .greeting {
   height: 146px;
@@ -174,7 +159,6 @@ header {
   padding: 8px;
 }
 
-/* header footer section */
 .network h4 {
   height: 24px;
   font-weight: 500;
@@ -204,7 +188,6 @@ ul {
   margin-left: 12px;
 }
 
-/* social icons */
 .icons {
   align-self: start;
   font-size: 30px;
@@ -245,18 +228,17 @@ ul {
   padding: 32px;
   gap: 12px;
   width: 375px;
-
   height: auto;
   background: var(--white);
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 1.3rem;
-  /* z-index: 5; */
 }
 
 .image-container {
   order: 0;
 }
+
 .snapShoot-portfolio {
   width: 100%;
   height: 220px;
@@ -290,10 +272,6 @@ ul {
   align-items: stretch;
   margin: 0.5rem 0 0.5rem 0;
 }
-
-/* .info-container{
-  order: 0;
-} */
 
 .info-head {
   width: 55px;
@@ -337,7 +315,6 @@ ul {
   padding: 0.1rem;
 }
 
-/* Class to be hidden */
 .daily-selection2 {
   display: none;
 }
@@ -402,7 +379,6 @@ ul {
   background-color: rgb(10, 10, 177);
 }
 
-/* media query for work section */
 @media (max-width: 375px) {
   .snapShoot-portfolio {
     width: 40%;
@@ -480,10 +456,6 @@ ul {
   color: #396df2;
 }
 
-form > div {
-  margin-top: 0.5rem;
-}
-
 .language {
   margin: 1.2rem 0.5rem 0.7rem 0.5rem;
   font-size: 24px;
@@ -499,8 +471,6 @@ form > div {
 .language > img {
   background-color: var(--white);
 }
-
-/* contact-form */
 
 form {
   display: flex;
@@ -632,42 +602,37 @@ textarea:focus {
   outline: none;
 }
 
-
 /* =============================================Modal mobile+++++++++++++++++++++++++++++++++++++ */
-  .popup-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 120vh;
-    z-index: 10;
-    background-color: grey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    opacity: 0.9;
-    margin: 0 auto;
-   
-  }
+.popup-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120vh;
+  z-index: 10;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  opacity: 0.9;
+  margin: 0 auto;
+}
 
-
-
-  .modal-container {
-    width: 90%;
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    background: var(--white);
-    z-index: 4;
-    padding: 1rem;
-    border-radius: 4%;
-    border: 4px solid red;
-  }
-
+.modal-container {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  background: var(--white);
+  z-index: 4;
+  padding: 1rem;
+  border-radius: 4%;
+  border: 4px solid red;
+}
 
 .modal-header {
   display: flex;
@@ -682,63 +647,58 @@ textarea:focus {
   border: 4px solid green;
 }
 
-
-
 .modal-bottom-container {
-    display: flex;
-    flex-direction: column;
-    border: 4px solid black;
-    width: 100%;
-    padding: 4px;
-    
-  }
+  display: flex;
+  flex-direction: column;
+  border: 4px solid black;
+  width: 100%;
+  padding: 4px;
+}
 
-  .details{
-    display: block;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-    flex: none;
-    padding: 0.4rem;
-   
-  }
+.details {
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  padding: 0.4rem;
+}
 
-  .side-container {
-    display: flex;
-    width:100%;
-    height: 20vh;
-  }
+.side-container {
+  display: flex;
+  width: 100%;
+  height: 20vh;
+}
 
-  .flex-wrap {
-    display: flex;
-    border: 4px solid black;
-  }
+.flex-wrap {
+  display: flex;
+  border: 4px solid black;
+}
 
-  .project-detail-btn-container {
+.project-detail-btn-container {
   border: 3px solid red;
   display: flex;
   width: 100%;
   justify-content: start;
   align-self: center;
-  margin:3rem;
-gap: 4px;
+  margin: 3rem;
+  gap: 4px;
 }
-.project-detail-btn{
+
+.project-detail-btn {
   position: relative;
   height: 40px;
   margin-left: 6px;
   transition: none;
 }
 
-.project-detail-btn img{
+.project-detail-btn img {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
 }
-
-
 
 /* ===================================================================Desktop version======================================================== */
 
@@ -764,7 +724,6 @@ gap: 4px;
     margin-top: -1px;
   }
 
-  /* header nav */
   .top-nav {
     width: 80%;
     margin: auto;
@@ -870,16 +829,12 @@ gap: 4px;
     flex-direction: column;
   }
 
-  .owner-name {
+  .owner-name,
+  .mobile,
+  .desktop,
+  .daily-selection,
+  .btn {
     display: none;
-  }
-
-  .mobile {
-    display: none;
-  }
-
-  .desktop {
-    display: block;
   }
 
   .owner-name2 {
@@ -920,7 +875,6 @@ gap: 4px;
   }
 
   .list-of-course li {
-    /* width: 75%; */
     height: 40px;
     padding: 10px;
   }
@@ -948,10 +902,6 @@ gap: 4px;
     color: #7a869a;
     list-style-type: square;
     margin-right: 16px;
-  }
-
-  .daily-selection {
-    display: none;
   }
 
   .daily-selection2 {
@@ -1054,10 +1004,6 @@ gap: 4px;
     background-color: rgb(10, 10, 177);
   }
 
-  .btn {
-    display: none;
-  }
-
   .language-container {
     margin-top: 0.5rem;
     flex: 1;
@@ -1147,14 +1093,11 @@ gap: 4px;
     border-radius: 2px;
   }
 
-
   /* --------------------------modal------------------------------------ */
   .popup-container {
- 
     height: 114vh;
-
   }
-  
+
   .modal-container {
     width: 60%;
     height: 80%;
@@ -1163,38 +1106,29 @@ gap: 4px;
     margin-top: 100px;
   }
 
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 0;
+  }
 
-.modal-header {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 0;
-}
+  .modal-image-container {
+    margin: 0 auto;
+    width: 50%;
+  }
 
-.modal-close-btn {
-  
-}
+  .modal-bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 12px;
+    width: 100%;
+    margin-top: 1rem;
+  }
 
-.modal-image-container {
-  margin: 0 auto;
-  width: 50%;
-}
-
-.modal-bottom-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: start;
-  gap: 12px;
-  /* height: 50vh; */
-  width: 100%;
-  margin-top: 1rem;
-  /* padding: 4px; */
-}
-
-
-
-  .details{
+  .details {
     width: 100%;
     display: flex;
     flex: 1;
@@ -1214,42 +1148,11 @@ gap: 4px;
     border: 4px solid black;
   }
 
-  .flex-wrap li{
-    width: 100px;
-    
-    /* flex-wrap: ; */
-  }
-
   .project-detail-btn-container {
-  border: 3px solid red;
-  display: flex;
-  flex-direction: center;
-  margin-top: 2rem;
-  height: 80px;
-
-}
-/* .project-detail-btn{
-  position: relative;
-  height: 40px;
-  margin-left: 6px;
-  transition: none;
-  
-} */
-
-/* .project-detail-btn img{
-  position: absolute;
-  top:0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-} */
-
-}
-
-
-@media (max-width < 375px) {
-  .side-container{
+    border: 3px solid red;
+    display: flex;
     flex-direction: column;
-    border: 1px solid blue;
+    margin-top: 2rem;
+    height: 80px;
   }
 }
