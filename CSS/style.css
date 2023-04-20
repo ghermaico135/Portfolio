@@ -61,8 +61,6 @@ body {
   opacity: 90%;
 }
 
-<<<<<<< HEAD
-=======
 ul {
   list-style-type: none;
   display: flex;
@@ -95,36 +93,26 @@ ul {
   margin-bottom: 2rem;
 }
 
->>>>>>> main
 .list-of-course a {
   text-decoration: none;
   color: #396df2;
   margin-left: -3px;
 }
 
-<<<<<<< HEAD
 .mobile-menu li a {
-=======
-.mobile-menu ul li a {
->>>>>>> main
   font-size: 2rem;
   font-weight: 500;
   line-height: 2.5rem;
   color: var(--white);
   text-decoration: none;
-<<<<<<< HEAD
-=======
   margin: 1rem;
   transition: ease-in-out 2s;
->>>>>>> main
 }
 
 .mobile-menu-close-btn {
   align-self: end;
 }
 
-<<<<<<< HEAD
-=======
 .mobile-menu-close-btn img {
   padding-right: 8px;
   width: 30px;
@@ -133,9 +121,6 @@ ul {
 }
 
 /* ---------------------------------------------menu end----------------------------- */
-
->>>>>>> main
-/* header nav */
 
 .top-nav {
   display: flex;
@@ -169,8 +154,6 @@ header {
   margin-left: 15px;
   text-decoration: none;
   font-size: 20px;
-
-  /* animation: logo 4s 2s 4s; */
 }
 
 .humber {
@@ -191,25 +174,6 @@ header {
   display: none;
 }
 
-<<<<<<< HEAD
-.list-of-course li {
-  width: 75px;
-
-  /* height: 24px; */
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  background: #ebebff;
-  border-radius: 8px;
-  padding: 4px;
-  margin-right: 0.2rem;
-  text-align: center;
-}
-
-=======
->>>>>>> main
 /*  Section header section  */
 
 .greeting {
@@ -285,11 +249,8 @@ header {
 
   .icons {
     width: 30px;
-<<<<<<< HEAD
     font-size: 25px;
-=======
     height: 25px;
->>>>>>> main
   }
 }
 
@@ -307,8 +268,6 @@ header {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 1.3rem;
-
-  /* z-index: 5; */
 }
 
 .image-container {
@@ -348,10 +307,6 @@ header {
   align-items: stretch;
   margin: 0.5rem 0 0.5rem 0;
 }
-
-/* .info-container{
-  order: 0;
-} */
 
 .info-head {
   width: 55px;
@@ -538,10 +493,6 @@ header {
   color: #396df2;
 }
 
-/* form > div {
-  margin-top: 0.5rem;
-} */
-
 .language {
   margin: 1.2rem 0.5rem 0.7rem 0.5rem;
   font-size: 24px;
@@ -667,8 +618,6 @@ textarea {
 
 input[type='submit'] {
   padding: 16px 12px;
-
-  /* width: 80%; */
   border-radius: 15px;
   font-weight: 500;
   font-size: 20px;
@@ -691,7 +640,6 @@ textarea:focus {
   outline: none;
 }
 
-<<<<<<< HEAD
 /* =====================================form validation css======================== */
 
 .form-input {
@@ -1284,6 +1232,3 @@ textarea:focus {
     height: 80px;
   }
 }
-=======
-/* ====================================================Desktop version============================================================================= */
->>>>>>> main
