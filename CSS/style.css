@@ -119,7 +119,9 @@ header {
 
 .menu,
 .menu-rails,
-.desktop {
+.desktop , .Portfolio-Desk-Card,
+.owner-name2 , .info-head2
+,.daily-selection2,.btn-desktop,.invisible {
   display: none;
 }
 
@@ -235,18 +237,10 @@ ul {
   margin-top: 1.3rem;
 }
 
-.image-container {
-  order: 0;
-}
-
 .snapShoot-portfolio {
   width: 100%;
   height: 220px;
   border-radius: 8px;
-}
-
-.Portfolio-Desk-Card {
-  display: none;
 }
 
 .owner-name {
@@ -259,10 +253,6 @@ ul {
   line-height: 44px;
   color: var(--dark-black);
   margin: 0.1rem 0 0.1rem 0;
-}
-
-.owner-name2 {
-  display: none;
 }
 
 .info {
@@ -282,10 +272,6 @@ ul {
   line-height: 16px;
   color: #344563;
   margin: 0 0 0 0;
-}
-
-.info-head2 {
-  display: none;
 }
 
 .info ul li {
@@ -313,10 +299,6 @@ ul {
   flex-grow: 0;
   margin-top: 0.3rem;
   padding: 0.1rem;
-}
-
-.daily-selection2 {
-  display: none;
 }
 
 .list-of-course {
@@ -350,10 +332,6 @@ ul {
   text-decoration: none;
   border: 1px solid #396df2;
   border-radius: 16px;
-}
-
-.btn-desktop {
-  display: none;
 }
 
 .btn:enabled {
@@ -480,10 +458,6 @@ form {
   margin-top: 2rem;
 }
 
-.invisible {
-  display: none;
-}
-
 .soft-skill {
   display: flex;
   justify-content: space-between;
@@ -565,16 +539,12 @@ textarea {
   width: 90%;
   border-radius: 10px;
   margin: 0 24px;
-  color: #000;
+  color:  #172b4d;
 }
 
 input[type='text'] {
   border: 1px solid orange;
   border-radius: 0;
-}
-
-textarea {
-  color: #172b4d;
 }
 
 input[type='submit'] {
@@ -737,7 +707,15 @@ textarea:focus {
     align-items: center;
   }
 
-  .vector {
+  .vector,.snapShoot-portfolio {
+    display: none;
+  }
+  .owner-name,
+  .mobile,
+  .desktop,
+  .daily-selection,
+  .btn,.vector,
+  .snapShoot-portfolio {
     display: none;
   }
 
@@ -812,10 +790,6 @@ textarea:focus {
     padding: 0.1rem;
   }
 
-  .snapShoot-portfolio {
-    display: none;
-  }
-
   .Portfolio-Desk-Card {
     display: inline;
     width: 100%;
@@ -827,14 +801,6 @@ textarea:focus {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-  }
-
-  .owner-name,
-  .mobile,
-  .desktop,
-  .daily-selection,
-  .btn {
-    display: none;
   }
 
   .owner-name2 {
