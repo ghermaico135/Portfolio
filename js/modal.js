@@ -102,7 +102,7 @@ seeProjectBtns.forEach((cardBtn, indexBtn) => {
                 </h2>
                 </div>
                 <div class="modal-close-btn" >
-                <img  src="../images/Icon/mobile_exit_Icon.png" alt="exit-icon"> 
+                    <h2> X </h2>
                 </div>
             </div>
 
