@@ -6,7 +6,7 @@
 
 const seeProjectBtns = document.querySelectorAll('.card-popup-btn');
 const modalCloseBtn = document.querySelector('.modal-close-btn');
-const popupContainer = document.querySelector('.popup-container')
+const popupContainer = document.querySelector('.popup-container');
 
 const project = [
   {
@@ -23,8 +23,8 @@ const project = [
     aboutProjectDsk:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technology: ['html', 'css', 'Javascript'],
-    liveDemo: "https://ghermaico135.github.io/Portfolio/",
-    source:"https://github.com/ghermaico135/Portfolio.git"
+    liveDemo: 'https://ghermaico135.github.io/Portfolio/',
+    source: 'https://github.com/ghermaico135/Portfolio.git',
   },
   {
     imgMobile: '../images/Img/Snapshoot PortfolioOne.png',
@@ -40,8 +40,8 @@ const project = [
     aboutProjectDsk:
       'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     technology: ['html', 'ruby on rails', 'css', 'Javascript'],
-    liveDemo: "https://ghermaico135.github.io/Portfolio/",
-    source:"https://github.com/ghermaico135/Portfolio.git"
+    liveDemo: 'https://ghermaico135.github.io/Portfolio/',
+    source: 'https://github.com/ghermaico135/Portfolio.git',
   },
   {
     imgMobile: '../images/Img/Snapshoot Portfolio.png',
@@ -57,8 +57,8 @@ const project = [
     aboutProjectDsk:
       "Exploring the future of media in Facebook's first Virtual Reality app;a place to discover and enjoy 360 photos and videos on Gear VR..",
     technology: ['html', 'ruby on rails', 'css', 'Javascript'],
-    liveDemo: "https://ghermaico135.github.io/Portfolio/",
-    source:"https://github.com/ghermaico135/Portfolio.git"
+    liveDemo: 'https://ghermaico135.github.io/Portfolio/',
+    source: 'https://github.com/ghermaico135/Portfolio.git',
   },
   {
     imgMobile: '../images/Img/Snapshoot PortfolioOne.png',
@@ -76,89 +76,87 @@ const project = [
     aboutProjectDsk:
       '   A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     technology: ['html', 'ruby on rails', 'css', 'Javascript'],
-    liveDemo: "https://ghermaico135.github.io/Portfolio/",
-    source:"https://github.com/ghermaico135/Portfolio.git"
+    liveDemo: 'https://ghermaico135.github.io/Portfolio/',
+    source: 'https://github.com/ghermaico135/Portfolio.git',
   },
 ];
 // console.log(seeProjectBtns)
 
-seeProjectBtns.forEach((cardBtn, indexBtn) => {
-  cardBtn.addEventListener('click', () => {
-    project.forEach((card, indexCard) => {
-      if (indexBtn === indexCard) {
-        // console.log("hi")
-        const div = document.createElement('div');
-        div.innerHTML = `
-      <div class="popup-container" style="border:1px solid red">
+// seeProjectBtns.forEach((cardBtn, indexBtn) => {
+//   cardBtn.addEventListener('click', () => {
+//     project.forEach((card, indexCard) => {
+//       if (indexBtn === indexCard) {
+//         // console.log("hi")
+//         const div = document.createElement('div');
+//         div.innerHTML = `
+//       <div class="popup-container" style="border:1px solid red">
+//         <div class="modal-container">
+//             <div class="modal-header">
+//                 <div>
+//                   <h2 class="owner-name">
+//                   ${card.ownerMobile}
+//                 </h2>
+//                 <h2 class="owner-name2">
+//                 ${card.ownerDesk}
+//                 </h2>
+//                 </div>
+//                 <div class="modal-close-btn" >
+//                 <img  src="../images/Icon/mobile_exit_Icon.png" alt="exit-icon">
+//                 </div>
+//             </div>
 
-        <div class="modal-container">
-            <div class="modal-header">
-                <div>
-                  <h2 class="owner-name">
-                  ${card.ownerMobile}
-                </h2>
-                <h2 class="owner-name2">
-                ${card.ownerDesk}
-                </h2>
-                </div>
-                <div class="modal-close-btn" >
-                <img  src="../images/Icon/mobile_exit_Icon.png" alt="exit-icon"> 
-                </div>
-            </div>
+//               <div class="info">
+//                 <h3 class="info-head">${card.mobileInfO}</h3>
+//                 <h3 class="info-head2">${card.DeskInfO}</h3>
+//                 <ul>
+//                   <li> ${card. profession} </li>
 
-              <div class="info">
-                <h3 class="info-head">${card.mobileInfO}</h3>
-                <h3 class="info-head2">${card.DeskInfO}</h3>
-                <ul>
-                  <li> ${card. profession} </li>
-               
-                  <li>${card.year}</li>
-                </ul>
-              </div>
+//                   <li>${card.year}</li>
+//                 </ul>
+//               </div>
 
-              <div class="modal-image-container">
-                <img class="snapShoot-portfolio" src=${card.imgMobile} alt="mobile-Snapshot-Portfolio-one">
-                <img class="Portfolio-Desk-Card" src="${card.imgDesktop}" alt="desktop-snapShoot-portfolio">
-              </div>
+//               <div class="modal-image-container">
+//                 <img class="snapShoot-portfolio" src=${card.imgMobile} alt="mobile-Snapshot-Portfolio-one">
+//                 <img class="Portfolio-Desk-Card" src="${card.imgDesktop}" alt="desktop-snapShoot-portfolio">
+//               </div>
 
-              <div class="modal-bottom-container">
-                    <div>
-                      <p class="paragraph">
-                      
-                      ${card.aboutProjectMob}
-                      </p>
-                    </div>
+//               <div class="modal-bottom-container">
+//                     <div>
+//                       <p class="paragraph">
 
-                      <div>
-                        <div>
-                          <ul class="list-of-course flex-wrap">
-                          <li><a href="#"> ${card.technology[0]}</a></li>
-                          <li class="menu-rails"><a href="#">${card.technology[1]}</a></li>
-                          <li><a href="#">${card.technology[2]}</a></li>
-                          <li><a href="#">${card.technology[3]}</a></li>
-                          </ul>
-                        </div>
+//                       ${card.aboutProjectMob}
+//                       </p>
+//                     </div>
 
-                        <div class="project-detail-btn">
-                          <a  class="btn" href="${card.liveDemo}">Live demo</a>
-                          <a  class="btn" href="${card.source}">Source</a>
-                        </div>
-                      </div>
-              </div>
-        </div>
-      </div>
+//                       <div>
+//                         <div>
+//                           <ul class="list-of-course flex-wrap">
+//                           <li><a href="#"> ${card.technology[0]}</a></li>
+//                           <li class="menu-rails"><a href="#">${card.technology[1]}</a></li>
+//                           <li><a href="#">${card.technology[2]}</a></li>
+//                           <li><a href="#">${card.technology[3]}</a></li>
+//                           </ul>
+//                         </div>
 
-        `;
-        document.body.appendChild(div);
-      }
-    });
-  });
+//                         <div class="project-detail-btn">
+//                           <a  class="btn" href="${card.liveDemo}">Live demo</a>
+//                           <a  class="btn" href="${card.source}">Source</a>
+//                         </div>
+//                       </div>
+//               </div>
+//         </div>
+//       </div>
+
+//         `;
+//         document.body.appendChild(div);
+//       }
+//     });
+//   });
+// });
+
+modalCloseBtn.addEventListener('click', () => {
+  console.log('hey');
+  popupContainer.style.display = 'none';
 });
-
-
-modalCloseBtn.addEventListener('click' ,() =>{
-  popupContainer.style.display ="none"
-   console.log("hey")
-})
 
 // Main.appendChild(section1);

@@ -156,42 +156,41 @@
                 </div>
       </section>  
 
-<!-- ------------------------Modal--------------------------- -->
-  <div class="popup-container" style="border:1px solid red">
-
+<!--Modal-->
+  <div class="popup-container">
     <div class="modal-container">
+      <!-- modal header -->
         <div class="modal-header">
+          <!-- project name -->
               <div>
+                <!-- mobile -->
                 <h2 class="owner-name">
                   miki
-              </h2>
-              <h2 class="owner-name2">
-                herruye
-              </h2>
+                </h2>
+                <!-- desktop -->
+                <h2 class="owner-name2">
+                  Tonic
+                </h2>
               </div>
-              <div class="modal-close-btn" >
-              <img  src="../images/Icon/mobile_exit_Icon.png" alt="exit-icon"> 
-              </div>
+          <!-- close btn -->
+              <div class="modal-close-btn" >X</div>
           </div>
-
-          <div class="info">
-            <h3 class="info-head">miki</h3>
-            <h3 class="info-head2">herriye</h3>
-            <ul>
-              <li> card. profession </li>
-           
-              <li>card.year</li>
+            <ul class="modal-client-info-container">
+              <li>CANOPY</li>
+              <li>O</li>
+              <li>Back End Dev</li>
+              <li>O</li>
+              <li>2015</li>
             </ul>
-          </div>
-
+          <!-- Sanpshoot -->
           <div class="modal-image-container">
             <img class="snapShoot-portfolio" src="./images/Img/Snapshoot Portfolio.png" alt="mobile-snapShoot-portfolio">
-                        
             <img class="Portfolio-Desk-Card" src="./images/Img/Snapshoot Portfolio46.png" alt="desktop-snapShoot-portfolio">
           </div>
-
+          <!-- modal bottom -->
           <div class="modal-bottom-container">
-                <div>
+                <!-- left side -->
+                <div class="modal-bottom-left-side">
                   <p class="details">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Autem nam esse voluptatibus sunt quidem et dolore exercitationem! 
@@ -201,32 +200,24 @@
                     eos reprehenderit odit provident debitis cumque dolores repellat aperiam.
                   </p>
                 </div>
-
-                  <div class="side-container">
-                    <div>
-                      <ul class="list-of-course flex-wrap">
-                        <li><a href="#">html</a></li>
-                        <li class="menu-rails"><a href="#">Ruby on rails</a></li>
-                        <li><a href="#">css</a></li>
-                        <li><a href="#">Javascript</a></li>
-                      </ul>
-                    </div>
-
-                    <div class="project-detail-btn-container">
-                        <a  class="btn-desktop project-detail-btn" href="#"> live
-                          <img  src="./images/Icon/Github.png" alt="github-icon">
-                        </a>
-                        <a  class="btn-desktop project-detail-btn" href="#">Source
-                          <img  src="./images/Icon/Github.png" alt="github-icon">
-                        </a>
-                        <a  class="btn project-detail-btn" href="#">Source
-                          <img  src="./images/Icon/Github.png" alt="github-icon">
-                        </a>
-                          <a  class="btn project-detail-btn" href="#"> live
-                            <img  src="./images/Icon/Github.png" alt="github-icon">
-                          </a>
-                    </div>
-                  </div>
+                <!-- right side -->
+                <div class="side-container">
+                <!-- tags -->
+                    <ul class="list-of-course flex-wrap">
+                      <li>html</li>
+                      <li class="menu-rails">Ruby on rails</li>
+                      <li>css</li>
+                      <li>Javascript</li>
+                    </ul>
+                <!-- btns -->
+                <ul class="project-detail-btn-container">
+                  <li><a href="#" class="btn-desktop">Live preview</a></li>
+                  <li><a href="#" class="btn-desktop">Source code</a></li>
+                  <li><a href="#" class="btn project-detail-btn">Live preview</a></li>
+                  <li><a href="#" class="btn project-detail-btn">Source code</a></li>
+                </ul>
+                  
+                </div>
           </div>
     </div>
   </div>
@@ -372,6 +363,6 @@
   </div>
 <!-- Scripts -->
   <script src="./js/mobile-menu.js"></script>
-  <!-- <script src="./js/modal.js"></script> -->
+  <script src="./js/modal.js"></script>
 </body>
 </html>
