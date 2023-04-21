@@ -7,10 +7,8 @@
   <title>Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./CSS/style.css">
-  <!-- <link rel="stylesheet" href="./CSS/try.css"> -->
-  <link rel="stylesheet" type="text/css"
-    media="screen and (min-width: 64em)"
-    href="./CSS/desktopVersion.css" />
+
+
 </head>
 <body>
 
@@ -112,13 +110,12 @@
         </div>
         </section>
       </header>    
-          <!----------------------------------------End of Header section--------------------------- -->
           <!-- --------------------------------------Start of Main and Work section 1--------------------------------->
         <main id="portfolio-section">
             <section class="work-section">
                   <div class="image-container">
 
-                        <img class="snapShoot-portofolio" src="./images/Img/Snapshoot Portfolio.png" alt="mobile-snapShoot-portfolio">
+                        <img class="snapShoot-portfolio" src="./images/Img/Snapshoot Portfolio.png" alt="mobile-snapShoot-portfolio">
                         
                         <img class="Portfolio-Desk-Card" src="./images/Img/Snapshoot Portfolio-Desk-Card (copy).svg" alt="desktop-snapShoot-portfolio">
                   </div>
@@ -161,17 +158,15 @@
 
                       <div >
                         <a  class="btn" href="#">See Project</a>
-                        <a  class="btn-desktop" href="#">See Project</a>
+                        <a  class="btn-desktop card-popup-btn" href="#">See Project</a>
                       </div>
                 </div>
-            </section> 
-          <!-- ------------------------End of Work Section 1------------------------------------ -->
-          
+            </section>  
           <!------------------------------work section 2-------------------------------------------------- -->
-          <section class="work-section">
+           <section class="work-section">
                 <div class="image-container flex-order">
 
-                    <img class="snapShoot-portofolio" src="./images/Img/Snapshoot PortfolioOne.png" alt="mobile-Snapshot-Portfolio-one">
+                    <img class="snapShoot-portfolio" src="./images/Img/Snapshoot PortfolioOne.png" alt="mobile-Snapshot-Portfolio-one">
                       
                     <img class="Portfolio-Desk-Card" src="./images/Img/Snapshoot Portfolio46.png" alt="desktop-snapShoot-portfolio">
                 </div>
@@ -219,15 +214,13 @@
                       <a  class="btn-desktop" href="#">See Project</a>
                     </div>
                 </div>
-          </section>   
-          
-          <!-- -------------------------------End of work section2------------------ -->
+          </section> 
 
         <!------------------------------------Work Section 3 --------------------------->
         <section class="work-section">
                   <div class="image-container">
 
-                        <img class="snapShoot-portofolio" src="./images/Img/Snapshoot Portfolio.png" alt="mobile-snapShoot-portfolio">
+                        <img class="snapShoot-portfolio" src="./images/Img/Snapshoot Portfolio.png" alt="mobile-snapShoot-portfolio">
                         
                         <img class="Portfolio-Desk-Card" src="./images/Img/Snapshoot Portfolio4.png" alt="desktop-snapShoot-portfolio">
                   </div>
@@ -276,14 +269,11 @@
                   </div>
         </section> 
             
-
-                  <!-- -------------------------------End of work section3------------------ -->
-
                 <!------------------------------------Work Section 4--------------------------->
                 <section class="work-section">
                   <div class="image-container flex-order">
       
-                      <img class="snapShoot-portofolio" src="./images/Img/Snapshoot PortfolioOne.png" alt="mobile-snapshot-Portfolio-one">
+                      <img class="snapShoot-portfolio" src="./images/Img/Snapshoot PortfolioOne.png" alt="mobile-snapshot-Portfolio-one">
                         
                         <img class="Portfolio-Desk-Card" src="./images/Img/Snapshoot Portfolio46.png" alt="desktop-snapShoot-portfolio">
                   </div>
@@ -333,14 +323,12 @@
                         <a  class="btn-desktop" href="#">See Project</a>
                       </div>
                 </div>
-                </section>
-        </main>
+                </section> 
       <!---------------------------------------------footer ------------------------------------------------------- -->
       <footer>   
           <section class="footer-container">
-              <!-- <section> -->
+            <div class="about-section">
             <div class="about-section" id="about-section">
-                <!--------------------- about container --------------------------------->
               <div class="about-container">
                     <div class="aboutmyself-content">
                               <div>
@@ -403,9 +391,8 @@
                         </div>
                     </div>
                   </div>     
-            </div>
-            <!-- social icons --->
-            <!-- ---------------------------Languages container--------------------- -->
+                </div>
+
           <div class="language-container">  
 
                             <div class="container-1">
@@ -462,29 +449,34 @@
                               </p>
                         </div>
                       <form action="https://formspree.io/f/xdovwvbg" method="post">
-                          <div>
+                          <div class="form-input">
                             <label class="invisible" for="userName">UserName</label>
-                            <input type="text" name="userName" id="userName" maxlength="30" placeholder="userName" required>
+                            <input type="text"  name="userName" id="userName" maxlength="30" placeholder="userName" required>
                           </div>
-                          <div>
+                          <div class="form-input">
                             <label class="invisible" hidden for="email">Email</label>
                             <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
                           </div>
-              
-                          <div>
+                          <div class="form-input">
                             <label class="invisible" for="message">Write Comment</label>
                             <textarea name="msg" id="message" cols="30" rows="6" maxlength="500"  placeholder="write your message here" required></textarea>
                           </div>
-              
                           <div>
-                            <input class="btn-submit" type="submit" name="submit" value="Get in touch">
+                            <input type="submit" id="submit" name="submit" value="Get in touch">
                           </div>
-                      </form>
+                        </form>
+
+                          <div class="errorMsg">
+                            <small class="small">Email should be in lowercase</small>
+                          </div>
+                        
+              
                 </div>
           </section>
       </footer> 
                                   <!---------------------------------------------footer ------------------------------------------------------- -->
   </div>
-  <script src="./js/mobile-menu.js"></script>
+  <script src="./js/validation-form.js"></script>
+
 </body>
 </html>
