@@ -707,15 +707,13 @@ textarea:focus {
     align-items: center;
   }
 
-  .vector,.snapShoot-portfolio {
-    display: none;
-  }
+  .vector,.snapShoot-portfolio ,
   .owner-name,
   .mobile,
   .desktop,
   .daily-selection,
   .btn,.vector,
-  .snapShoot-portfolio {
+  .snapShoot-portfolio,.info-head {
     display: none;
   }
 
@@ -834,10 +832,6 @@ textarea:focus {
     line-height: 24px;
     color: #344563;
     margin: 0.1rem 0 0.3rem 0;
-  }
-
-  .info-head {
-    display: none;
   }
 
   .list-of-course li {
