@@ -13,7 +13,7 @@ window.addEventListener('load', () => {
 // set userDate to localStorage
 const setUserData = { name: '', email: '', msg: '' };
 
-submissionBtn.addEventListener('click', () => {
+submissionBtn.addEventListener('submit', () => {
   setUserData.name = userName.value;
   setUserData.email = userEmail.value;
   setUserData.msg = userMessage.value;
