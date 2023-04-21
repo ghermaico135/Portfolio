@@ -24,11 +24,6 @@ body {
   margin: 0 auto;
 }
 
-.menu-rails,
-.desktop {
-  display: none;
-}
-
 /* ===================================================header================================================================================= */
 
 .toolbar-container {
@@ -75,20 +70,19 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 20px 0 10px 5px;
   padding: 20px;
 }
 
 header {
   position: relative;
   width: 375px;
+  height: 80vh;
   background: var(--white);
   background-image: url(../images/Img/header-shapes\ mobile@2x.png);
   background-repeat: no-repeat;
   border-radius: 16px;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
-  margin-top: -2.5rem;
 }
 
 .logo {
@@ -124,12 +118,18 @@ header {
 }
 
 .list-of-course {
-  list-style: none;
+  list-style-type: none;
   border: 1px solid orange;
   display: flex;
 }
 
+.icons a{
+  margin-right: 8px;
+  text-decoration: none;
+}
+
 .list-of-course li {
+  text-decoration: none;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -137,23 +137,26 @@ header {
   color: #6070ff;
   background: #ebebff;
   border-radius: 8px;
-  padding: 4px;
-  margin-right: 0.2rem;
   text-align: center;
-  padding: 10px 15px;
-}
+  padding: 8px 12px;
+  margin-right: 8px;
 
+}
+.header-intro {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
 .greeting {
-  height: 146px;
   font-weight: 400;
   font-size: 35px;
   line-height: 36px;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
   color: var(--dark-blue);
-  margin: 40px 0 0 20px;
-  padding: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .intro {
@@ -161,61 +164,29 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: var(--dark-blue);
-  margin: 10px 0 20px 20px;
   padding: 8px;
+  
 }
 
-.network h4 {
-  height: 24px;
+h4 {
+  height: 30px;
   font-weight: 500;
   font-size: 24px;
   line-height: 24px;
   color: var(--skyblue);
-  margin: 15px 0 10px 10px;
-  padding: 10px;
 }
 
-.network {
-  text-decoration: none;
+.social {
+  display: flex;
+  flex-direction: column;
 }
 
-.social-icon {
-  position: absolute;
-  margin-top: 5px;
-  margin-left: 0;
-  padding-left: 15px;
+.social-icons{
+  display: flex;
 }
 
-/* social icons */
-.icons {
-  align-self: start;
-  font-size: 30px;
-  border-radius: 0;
-  width: 40px;
-  margin: 5px 2px 0 0;
-}
-
-@media (max-width: 375px) {
-  .header {
-    width: 300px;
-  }
-
-  .top-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 10px 0 10px -5px;
-    padding: 5px;
-  }
-
-  .vector {
-    margin-left: -10px;
-  }
-
-  .icons {
-    width: 30px;
-    font-size: 25px;
-  }
+.social-icons li{
+  list-style-type: none;
 }
 
 /* ======================================Work section T====================================================== */
@@ -224,10 +195,10 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 32px;
+  padding: 16px;
   gap: 12px;
-  width: 375px;
-  height: auto;
+  /* width: 375px; */
+  height: 90vh;
   background: var(--white);
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -238,6 +209,7 @@ header {
   width: 100%;
   height: 220px;
   border-radius: 8px;
+  
 }
 
 .owner-name {
@@ -249,9 +221,13 @@ header {
   font-size: 32px;
   line-height: 44px;
   color: var(--dark-black);
-  margin: 0.1rem 0 0.1rem 0;
+  margin-bottom: 1rem;
 }
 
+.identifier{
+  border: 4px solid blue;
+  margin-bottom: 1rem;
+}
 .info {
   display: flex;
   flex-direction: row;
@@ -284,8 +260,7 @@ header {
 }
 
 .daily-selection {
-  width: 295px;
-  height: 76px;
+  width: 80%;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -297,14 +272,13 @@ header {
   margin-top: 0.3rem;
   padding: 0.1rem;
 }
-
-/* Class to be hidden */
-.daily-selection2 {
-  display: none;
+.language-icon{
+  margin: 2rem 0 2rem 0;
 }
 
+/* Class to be hidden */
 .btn {
-  width: 180px;
+  width:40%;
   height: 55px;
   display: flex;
   flex-direction: column;
@@ -347,12 +321,6 @@ header {
 }
 
 @media (max-width: 375px) {
-  .snapShoot-portfolio {
-    width: 40%;
-    height: 70%;
-    padding: 20px;
-  }
-
   .daily-selection {
     width: 85%;
     height: 90%;
@@ -561,7 +529,7 @@ textarea:focus {
   outline: none;
 }
 
-/* =============================================Modal mobile+++++++++++++++++++++++++++++++++++++ */
+/* =============================================modal mobile+++++++++++++++++++++++++++++++++++++ */
 .popup-container {
   position: absolute;
   top: 0;
@@ -576,9 +544,9 @@ textarea:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* overflow-x: hidden; */
   overflow-y: hidden;
   margin: 0 auto;
+  opacity: 1;
 }
 
 .modal-container {
@@ -592,6 +560,7 @@ textarea:focus {
   padding: 1rem;
   border-radius: 4%;
   overflow-y: scroll;
+  height: 90%;
 }
 
 .modal-header {
@@ -626,12 +595,7 @@ textarea:focus {
   border: 4px solid black;
   width: 100%;
   padding: 4px;
-}
-  display: flex;
-  flex-direction: column;
-  border: 4px solid black;
-  width: 100%;
-  padding: 4px;
+
 }
 
 .details {
@@ -640,18 +604,8 @@ textarea:focus {
   line-height: 24px;
   color: #344563;
   flex: none;
-  padding: 0.4rem;
+  margin-bottom: 0.4rem;
 }
-.details {
-  display: block;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  flex: none;
-  padding: 0.4rem;
-}
-
-
 
 .project-detail-btn-container {
   list-style: none;
@@ -663,19 +617,16 @@ textarea:focus {
 }
 .project-detail-btn {
   position: relative;
+  width: 100%;
   height: 40px;
   margin-left: 6px;
   transition: none;
 }
 
 .project-detail-btn img {
-.project-detail-btn img {
   position: absolute;
-  top: 0;
-  top: 0;
-  left: 0;
   right: 0;
-  bottom: 0;
+
 }
 
 /* ===================================================================Desktop version======================================================== */
@@ -694,14 +645,6 @@ textarea:focus {
     width: 100%;
   }
 
-  header {
-    width: 100%;
-    background-image: url(../images/Img/Header\ bg@2x.svg);
-    background-repeat: no-repeat;
-    border-bottom-left-radius: 15%;
-    margin-top: -1px;
-  }
-
   .top-nav {
     width: 80%;
     margin: auto;
@@ -715,10 +658,9 @@ textarea:focus {
     align-items: center;
   }
 
-  .vector,.snapShoot-portfolio ,
+  .vector,
   .owner-name,
   .mobile,
-  .desktop,
   .daily-selection,
   .btn,.vector,
   .snapShoot-portfolio,.info-head {
@@ -747,41 +689,50 @@ textarea:focus {
     background-color: var(--skyblue);
   }
 
-  .header-intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   header {
+    width: 100%;
+    background-image: url(../images/Img/Header\ bg@2x.svg);
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 15%;
+    margin-top: 4.5rem;
+    padding:0 8px;
   }
 
   .greeting {
-    height: 122px;
+    width: 80%;
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
     letter-spacing: 0.37px;
-    margin: 9rem 10rem 0.1rem 0;
+
   }
 
   .intro {
+    width: 80%;
     font-size: 20px;
     line-height: 28px;
-    margin: 0 16rem 0.5rem 16rem;
-    order: 1;
   }
-
   .social {
+    width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    margin-left: 15rem;
+    align-items: center;
+    justify-self: center;
+    padding: 4px;
+    
   }
+
+.social-icons{
+  display: flex;
+  width: 30%;
+  display: flex;
+}
 
   /* ======================================work section ============================================ */
 
   .work-section {
     width: 90%;
+    height: 60%;
     border-radius: 24px;
     display: flex;
     flex-direction: row;
@@ -807,6 +758,7 @@ textarea:focus {
     padding: 1rem;
     display: flex;
     flex-direction: column;
+    border: 3px solid red;
   }
 
   .owner-name2 {
@@ -877,7 +829,7 @@ textarea:focus {
     line-height: 24px;
     color: #344563;
     flex: none;
-    margin: 3rem 0 2rem 0;
+    margin: 1rem 0 1rem 0;
     padding: 0.4rem;
   }
 
@@ -933,7 +885,6 @@ textarea:focus {
     align-items: center;
     margin-top: 0.5rem;
     padding: 5px 10px;
-    font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
@@ -943,6 +894,7 @@ textarea:focus {
     text-decoration: none;
     border: 1px solid #396df2;
     border-radius: 16px;
+    width: 25%;
   }
 
   .btn-desktop:enabled {
@@ -1057,14 +1009,14 @@ textarea:focus {
     border-radius: 2px;
   }
 
-  /* --------------------------modal------------------------------------ */
-
+  /* --------------------------modal-desktop------------------------------------ */
   .modal-container {
     width: 60%;
     height: 80%;
     display: flex;
     flex-direction: column;
     margin-top: 100px;
+    height: 80%;
   }
 
   .modal-header {
@@ -1082,13 +1034,13 @@ textarea:focus {
     gap: 12px;
     width: 100%;
     margin-top: 1rem;
+    height: 90%;
   }
   .modal-bottom-left-side {
     border: 1px solid orange;
     width: 70%;
   }
 
-  .details {
   .details {
     width: 100%;
     display: flex;
