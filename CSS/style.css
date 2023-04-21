@@ -31,7 +31,6 @@ body {
 }
 
 /* ===================================================header================================================================================= */
-
 .toolbar-container {
   background-color: var(--white);
   position: relative;
@@ -100,7 +99,11 @@ ul {
   margin-left: -3px;
 }
 
+<<<<<<< HEAD
 .mobile-menu ul li a {
+=======
+.mobile-menu li a {
+>>>>>>> main
   font-size: 2rem;
   font-weight: 500;
   line-height: 2.5rem;
@@ -122,6 +125,10 @@ ul {
 }
 
 /* ---------------------------------------------menu end----------------------------- */
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 .top-nav {
   display: flex;
   justify-content: space-between;
@@ -269,6 +276,13 @@ header {
   margin-top: 1.3rem;
 }
 
+<<<<<<< HEAD
+=======
+.image-container {
+  order: 0;
+}
+
+>>>>>>> main
 .snapShoot-portfolio {
   width: 100%;
   height: 220px;
@@ -775,7 +789,6 @@ textarea:focus {
     margin-top: -1px;
   }
 
-  /* header nav */
   .top-nav {
     width: 80%;
     margin: auto;
@@ -1225,5 +1238,8 @@ textarea:focus {
     height: 80px;
   }
 }
+<<<<<<< HEAD
 
 /* ====================================================Desktop version============================================================================= */
+=======
+>>>>>>> main
