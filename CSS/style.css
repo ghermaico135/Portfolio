@@ -71,8 +71,6 @@ body {
   align-self: end;
 }
 
-/* header nav */
-
 .top-nav {
   display: flex;
   justify-content: space-between;
@@ -93,7 +91,6 @@ header {
   margin-top: -2.5rem;
 }
 
-/* mylogo */
 .logo {
   width: 80px;
   height: 20px;
@@ -104,8 +101,6 @@ header {
   margin-left: 15px;
   text-decoration: none;
   font-size: 20px;
-
-  /* animation: logo 4s 2s 4s; */
 }
 
 .humber {
@@ -122,7 +117,9 @@ header {
 
 .menu,
 .menu-rails,
-.desktop {
+.desktop , .Portfolio-Desk-Card,
+.owner-name2 , .info-head2
+,.daily-selection2,.btn-desktop,.invisible {
   display: none;
 }
 
@@ -146,8 +143,6 @@ header {
   padding: 10px 15px;
 }
 
-/*  Section header section  */
-
 .greeting {
   height: 146px;
   font-weight: 400;
@@ -170,7 +165,6 @@ header {
   padding: 8px;
 }
 
-/* header footer section */
 .network h4 {
   height: 24px;
   font-weight: 500;
@@ -233,26 +227,17 @@ header {
   padding: 32px;
   gap: 12px;
   width: 375px;
-
   height: auto;
   background: var(--white);
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 1.3rem;
-  /* z-index: 5; */
 }
 
-.image-container {
-  order: 0;
-}
 .snapShoot-portfolio {
   width: 100%;
   height: 220px;
   border-radius: 8px;
-}
-
-.Portfolio-Desk-Card {
-  display: none;
 }
 
 .owner-name {
@@ -267,10 +252,6 @@ header {
   margin: 0.1rem 0 0.1rem 0;
 }
 
-.owner-name2 {
-  display: none;
-}
-
 .info {
   display: flex;
   flex-direction: row;
@@ -278,10 +259,6 @@ header {
   align-items: stretch;
   margin: 0.5rem 0 0.5rem 0;
 }
-
-/* .info-container{
-  order: 0;
-} */
 
 .info-head {
   width: 55px;
@@ -292,10 +269,6 @@ header {
   line-height: 16px;
   color: #344563;
   margin: 0 0 0 0;
-}
-
-.info-head2 {
-  display: none;
 }
 
 .info ul li {
@@ -350,10 +323,6 @@ header {
   border-radius: 16px;
 }
 
-.btn-desktop {
-  display: none;
-}
-
 .btn:enabled {
   color: var(--skyblue);
   border-color: var(--skyblue);
@@ -377,7 +346,6 @@ header {
   background-color: rgb(10, 10, 177);
 }
 
-/* media query for work section */
 @media (max-width: 375px) {
   .snapShoot-portfolio {
     width: 40%;
@@ -455,10 +423,6 @@ header {
   color: #396df2;
 }
 
-form > div {
-  margin-top: 0.5rem;
-}
-
 .language {
   margin: 1.2rem 0.5rem 0.7rem 0.5rem;
   font-size: 24px;
@@ -475,18 +439,12 @@ form > div {
   background-color: var(--white);
 }
 
-/* contact-form */
-
 form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
   margin-top: 2rem;
-}
-
-.invisible {
-  display: none;
 }
 
 .soft-skill {
@@ -570,16 +528,12 @@ textarea {
   width: 90%;
   border-radius: 10px;
   margin: 0 24px;
-  color: #000;
+  color:  #172b4d;
 }
 
 input[type='text'] {
   border: 1px solid orange;
   border-radius: 0;
-}
-
-textarea {
-  color: #172b4d;
 }
 
 input[type='submit'] {
@@ -673,7 +627,21 @@ textarea:focus {
   width: 100%;
   padding: 4px;
 }
+  display: flex;
+  flex-direction: column;
+  border: 4px solid black;
+  width: 100%;
+  padding: 4px;
+}
 
+.details {
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  padding: 0.4rem;
+}
 .details {
   display: block;
   font-size: 16px;
@@ -701,7 +669,9 @@ textarea:focus {
 }
 
 .project-detail-btn img {
+.project-detail-btn img {
   position: absolute;
+  top: 0;
   top: 0;
   left: 0;
   right: 0;
@@ -732,7 +702,6 @@ textarea:focus {
     margin-top: -1px;
   }
 
-  /* header nav */
   .top-nav {
     width: 80%;
     margin: auto;
@@ -746,7 +715,13 @@ textarea:focus {
     align-items: center;
   }
 
-  .vector {
+  .vector,.snapShoot-portfolio ,
+  .owner-name,
+  .mobile,
+  .desktop,
+  .daily-selection,
+  .btn,.vector,
+  .snapShoot-portfolio,.info-head {
     display: none;
   }
 
@@ -821,10 +796,6 @@ textarea:focus {
     padding: 0.1rem;
   }
 
-  .snapShoot-portfolio {
-    display: none;
-  }
-
   .Portfolio-Desk-Card {
     display: inline;
     width: 100%;
@@ -836,18 +807,6 @@ textarea:focus {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-  }
-
-  .owner-name {
-    display: none;
-  }
-
-  .mobile {
-    display: none;
-  }
-
-  .desktop {
-    display: block;
   }
 
   .owner-name2 {
@@ -910,10 +869,6 @@ textarea:focus {
     color: #7a869a;
     list-style-type: square;
     margin-right: 16px;
-  }
-
-  .daily-selection {
-    display: none;
   }
 
   .daily-selection2 {
@@ -1011,10 +966,6 @@ textarea:focus {
     color: var(--white);
     border: 1px solid rgb(10, 10, 177);
     background-color: rgb(10, 10, 177);
-  }
-
-  .btn {
-    display: none;
   }
 
   .language-container {
@@ -1137,6 +1088,7 @@ textarea:focus {
     width: 70%;
   }
 
+  .details {
   .details {
     width: 100%;
     display: flex;

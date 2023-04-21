@@ -105,11 +105,20 @@ const project = [
 //                 </div>
 //             </div>
 
-//               <div class="info">
-//                 <h3 class="info-head">${card.mobileInfO}</h3>
-//                 <h3 class="info-head2">${card.DeskInfO}</h3>
-//                 <ul>
-//                   <li> ${card. profession} </li>
+        <div class="modal-container">
+            <div class="modal-header">
+                <div>
+                  <h2 class="owner-name">
+                  ${card.ownerMobile}
+                </h2>
+                <h2 class="owner-name2">
+                ${card.ownerDesk}
+                </h2>
+                </div>
+                <div class="modal-close-btn" >
+                    <h2> X </h2>
+                </div>
+            </div>
 
 //                   <li>${card.year}</li>
 //                 </ul>
