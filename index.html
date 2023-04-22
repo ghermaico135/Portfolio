@@ -11,6 +11,7 @@
 			href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
 			rel="stylesheet" />
 		<link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/desktop.css">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -116,7 +117,7 @@
 							<h2 class="owner-name">Tonic</h2>
 							<h2 class="owner-name2">Tonic</h2>
 						</div>
-						<ul class="list-of-course ">
+						<ul class="list-of-course">
 							<li class="info-head">CANOPY</li>
 							<li class="info-head2">CANOPY</li>
 							<li><img src="./images/Icon/Counter.png" alt="counter" /></li>
@@ -137,7 +138,7 @@
 						</div>
 
 						<div>
-							<ul class="modal-listOf-course  language-icon">
+							<ul class="modal-listOf-course language-icon">
 								<li class="icons"><a href="#">html</a></li>
 								<li class="icons"><a href="#">css</a></li>
 								<li class="icons"><a href="#">Javascript</a></li>
@@ -155,7 +156,7 @@
 
 				<!-- End -->
 
-				<!--work section 2- -->
+				<!-- work section 2- --> 
 				<section class="work-section">
         <div class="image-container flex-order">
 
@@ -206,9 +207,9 @@
             </div>
       </div>
 </section>  
-				<!-- work-3 -->
+			
 
-				<section class="work-section">
+		<section class="work-section">
     <div class="image-container">
 
       <img class="snapShoot-portfolio" src="./images/Img/Snapshoot Portfolio.png" alt="mobile-snapShoot-portfolio">
@@ -256,9 +257,9 @@
           <a  class="btn-desktop desktop-card-popup-btn" href="#">See Project</a>
         </div>
   </div>
-</section>  
+</section> 
 				<!-- work-4 -->
-				<section class="work-section">
+		<section class="work-section">
   <div class="image-container flex-order">
 
     <img class="snapShoot-portfolio" src="./images/Img/Snapshoot PortfolioOne.png" alt="mobile-snapshot-Portfolio-one">
@@ -308,7 +309,8 @@
       </div>
 </div>
 </section>  
-			</main>
+		
+</main>
 
 			<footer>
 				<section class="footer-container">
@@ -411,65 +413,193 @@
                       </div>
           </div> 
          </section>
+         <section class="contact-section">
+          <div class="contact-content">
+            <div class="contact-me">
+              <h4 class="contact-me-heading">contact me</h4>
+            </div>
+            <div class="about-us">
+              <p>
+                If you have an application you are interested in developing, a
+                feature that you need built or a project that needs coding. I’d
+                love to help with it!
+              </p>
+            </div>
+            <form action="https://formspree.io/f/xdovwvbg" method="post">
+              <div>
+                <label class="invisible" for="userName">UserName</label>
+                <input
+                  type="text"
+                  name="userName"
+                  id="userName"
+                  maxlength="30"
+                  placeholder="userName"
+                  required />
+              </div>
+              <div>
+                <label class="invisible" hidden for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="example@gmail.com"
+                  required />
+              </div>
+  
+              <div>
+                <label class="invisible" for="message">Write Comment</label>
+                <textarea
+                  name="msg"
+                  id="message"
+                  cols="30"
+                  rows="6"
+                  maxlength="500"
+                  placeholder="write your message here"
+                  required></textarea>
+              </div>
+  
+              <div>
+                <input
+                  class="btn-submit"
+                  type="submit"
+                  name="submit"
+                  value="Get in touch" />
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
 			</footer>
 
-			<section class="contact-section">
-				<div class="contact-content">
-					<div class="contact-me">
-						<h4 class="contact-me-heading">contact me</h4>
-					</div>
-					<div class="about-us">
-						<p>
-							If you have an application you are interested in developing, a
-							feature that you need built or a project that needs coding. I’d
-							love to help with it!
-						</p>
-					</div>
-					<form action="https://formspree.io/f/xdovwvbg" method="post">
-						<div>
-							<label class="invisible" for="userName">UserName</label>
-							<input
-								type="text"
-								name="userName"
-								id="userName"
-								maxlength="30"
-								placeholder="userName"
-								required />
-						</div>
-						<div>
-							<label class="invisible" hidden for="email">Email</label>
-							<input
-								type="email"
-								name="email"
-								id="email"
-								placeholder="example@gmail.com"
-								required />
-						</div>
+		
 
-						<div>
-							<label class="invisible" for="message">Write Comment</label>
-							<textarea
-								name="msg"
-								id="message"
-								cols="30"
-								rows="6"
-								maxlength="500"
-								placeholder="write your message here"
-								required></textarea>
-						</div>
+<!-- desktop -->
+    <div class="popup-container">
+      <div class="modal-container">
+        <div class="modal-header">
+                  <div>
+                  <h2 class="modal-owner-name desktopOwner">Tonic</h2>
+                 </div>
+                 <div>
+                  <img src="./images/Icon/exit.png" class="desktop-modal-close-btn" alt="exit">
+                 </div>
+                 
+            </div>
+            <ul class="modal-popup-client-info-container">
+            <li class="modal-info-head DeskInfO">CANOPY</li>
+            <li><img src="./images/Icon/Counter.png" alt="counter" /></li>
+            <li class="role">Back end dev</li>
+            <li><img src="./images/Icon/Counter.png" alt="counter" /></li>
+            <li class="year">Year </li>
+          </ul>
+            <div class="modal-image-container">
+            <img
+              class="mobile-modal-portfolio desktop-img"
+              src="./images/Img/Snapshoot PortfolioOne.png" 
+              alt="mobile-modal-portfolio" />
+          </div>
+            <div class="modal-bottom-container">
+                  <div class="modal-bottom-left-side">
+                  <p class="details desktop-project-description">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy
+                    text ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it 1960s. Lorem Ipsum is simply dummy text
+                    of the printing and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the 1500s, when an
+                    unknown printer took a galley of type and scrambled it 1960s
+                    </p>
+                  </div>
+                  <div class="side-container">
+                      <ul class="modal-listOf-course flex-wrap">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li >Javascript</li>
+                          </ul>
+                      <ul class="modal-project-detail-btn-container">
+                        <li>
+                          <a href="https://ghermaico135.github.io/Portfolio/" class="modal-btn"
+                            >See Live
+                            <img src="./images/Icon/Icon -live.png" alt="github"
+                          /></a>
+                        </li>
+                        <li>
+                          <a href="https://github.com/ghermaico135/Portfolio.git" class="modal-btn"
+                            >see Source
+                            <img src="./images/Icon/Github.png" alt="github"
+                          /></a>
+                      </li>
+                  </ul>
+              </div>
+            </div>
+      </div>
+    </div>
 
-						<div>
-							<input
-								class="btn-submit"
-								type="submit"
-								name="submit"
-								value="Get in touch" />
-						</div>
-					</form>
-				</div>
-			</section>
-		</div>
+    <!-- mobile -->
+
+    <div class="popup-container ">
+      <div class="modal-container">
+        <div class="modal-header">
+                  <div>
+                  <h2 class="modal-owner-name mobileOwner">Tonic</h2>
+                 </div>
+               <div>
+                <img src="./images/Icon/exit.png" class="mobile-modal-close-btn" alt="exit">
+               </div>
+                  
+                
+            </div>
+            <ul class="modal-popup-client-info-container">
+            <li class="modal-info-head mobileInfO">CANOPY</li>
+            <li><img src="./images/Icon/Counter.png" alt="counter" /></li>
+            <li class="role">Back end dev</li>
+            <li><img src="./images/Icon/Counter.png" alt="counter" /></li>
+            <li class="year">Year </li>
+          </ul>
+            <div class="modal-image-container">
+            <img
+              class="mobile-modal-portfolio mobile-img"
+              src="./images/Img/Snapshoot PortfolioOne.png" 
+              alt="mobile-modal-portfolio" />
+          </div>
+            <div class="modal-bottom-container">
+                  <div class="modal-bottom-left-side">
+                  <p class="details mobile-project-description">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy
+                    text ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it 1960s. Lorem Ipsum is simply dummy text
+                    of the printing and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the 1500s, when an
+                    unknown printer took a galley of type and scrambled it 1960s
+                    </p>
+                  </div>
+                  <div class="side-container">
+                      <ul class="modal-listOf-course flex-wrap">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li >Javascript</li>
+                          </ul>
+                      <ul class="modal-project-detail-btn-container">
+                        <li>
+                          <a href="https://ghermaico135.github.io/Portfolio/" class="modal-btn"
+                            >See Live
+                            <img src="./images/Icon/Icon -live.png" alt="github"
+                          /></a>
+                        </li>
+                        <li>
+                          <a href="https://github.com/ghermaico135/Portfolio.git" class="modal-btn"
+                            >see Source
+                            <img src="./images/Icon/Github.png" alt="github"
+                          /></a>
+                      </li>
+                  </ul>
+              </div>
+            </div>
+      </div>
+    </div>
+
 		<script src="./js/modal.js"></script>
-		<!-- <script src="./js/mobile-modal.js"></script> -->
+	
 	</body>
 </html>
