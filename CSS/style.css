@@ -24,15 +24,8 @@ body {
   margin: 0 auto;
 }
 
-<<<<<<< HEAD
-=======
-.menu-rails,
-.desktop {
-  display: none;
-}
-
->>>>>>> main
 /* ===================================================header================================================================================= */
+
 .toolbar-container {
   background-color: var(--white);
   position: relative;
@@ -43,56 +36,22 @@ body {
   border-top-left-radius: 16px;
 }
 
-/* ------------------------menu start----------------------------------- */
 .mobile-menu {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  width: auto;
+  width: 100%;
   height: 100vh;
   margin: 0 auto;
-  padding: 0.6rem;
+  padding: 1.6rem;
   background-color: #6070ff;
-  z-index: 4;
+  z-index: 5;
   display: none;
   flex-direction: column;
   align-items: start;
   justify-content: start;
   gap: 2rem;
-  opacity: 90%;
-}
-
-ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: start;
-  padding: 3px;
-  margin-left: 6px;
-}
-
-.mobile-menu ul {
-  flex-direction: column;
-  padding: 1rem;
-}
-
-.list-of-course li {
-  width: 75px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  background: #ebebff;
-  border-radius: 8px;
-  padding: 2px;
-  margin-right: 0.2rem;
-  text-align: center;
-}
-
-.mobile-menu ul li {
-  margin-bottom: 2rem;
 }
 
 .icons a {
@@ -100,31 +59,18 @@ ul {
   text-decoration: none;
 }
 
-.mobile-menu ul li a {
+.mobile-menu li a {
   font-size: 2rem;
   font-weight: 500;
   line-height: 2.5rem;
-  color: var(--white);
+  color: #fff;
   text-decoration: none;
-  margin: 1rem;
-  transition: ease-in-out 2s;
 }
 
 .mobile-menu-close-btn {
   align-self: end;
 }
 
-<<<<<<< HEAD
-=======
-.mobile-menu-close-btn img {
-  padding-right: 8px;
-  width: 30px;
-  height: 20px;
-  margin-top: 3rem;
-}
-
-/* ---------------------------------------------menu end----------------------------- */
->>>>>>> main
 .top-nav {
   display: flex;
   justify-content: space-between;
@@ -135,11 +81,7 @@ ul {
 header {
   position: relative;
   width: 375px;
-<<<<<<< HEAD
   height: 80vh;
-=======
-  height: 72vh;
->>>>>>> main
   background: var(--white);
   background-image: url(../images/Img/header-shapes\ mobile@2x.png);
   background-repeat: no-repeat;
@@ -184,7 +126,6 @@ header {
   display: none;
 }
 
-<<<<<<< HEAD
 .list-of-course {
   list-style-type: none;
   display: flex;
@@ -209,9 +150,6 @@ header {
   align-items: center;
 }
 
-=======
-/*  Section header section  */
->>>>>>> main
 .greeting {
   font-weight: 400;
   font-size: 35px;
@@ -237,7 +175,6 @@ h4 {
   color: var(--skyblue);
 }
 
-<<<<<<< HEAD
 .social {
   display: flex;
   flex-direction: column;
@@ -249,51 +186,6 @@ h4 {
 
 .social-icons li {
   list-style-type: none;
-=======
-.network {
-  text-decoration: none;
-}
-
-.social-icon {
-  position: absolute;
-  margin-top: 5px;
-  margin-left: 0;
-  padding-left: 15px;
-}
-
-/* social icons */
-
-.icons {
-  align-self: start;
-  font-size: 30px;
-  border-radius: 0;
-  width: 40px;
-  margin: 5px 2px 0 0;
-}
-
-@media (max-width: 375px) {
-  .header {
-    width: 300px;
-  }
-
-  .top-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 10px 0 10px -5px;
-    padding: 5px;
-  }
-
-  .vector {
-    margin-left: -10px;
-  }
-
-  .icons {
-    width: 30px;
-    font-size: 25px;
-    height: 25px;
-  }
->>>>>>> main
 }
 
 /* ======================================Work section T====================================================== */
@@ -304,12 +196,7 @@ h4 {
   align-items: center;
   padding: 16px;
   gap: 12px;
-<<<<<<< HEAD
   height: 90vh;
-=======
-  width: 375px;
-  height: auto;
->>>>>>> main
   background: var(--white);
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -412,27 +299,7 @@ h4 {
   padding: 0.5rem;
 }
 
-<<<<<<< HEAD
 /* Class to be hidden */
-=======
-.daily-selection2 {
-  display: none;
-}
-
-.list-of-course {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 0.4rem 0 0 -0.3rem;
-  padding: 0.3rem;
-}
-
-.list-of-course a:hover {
-  text-decoration: underline;
-  color: #396df2;
-}
-
->>>>>>> main
 .btn {
   width: 50%;
   display: flex;
@@ -562,10 +429,6 @@ h4 {
   background-color: var(--white);
 }
 
-<<<<<<< HEAD
-=======
-/* contact-form */
->>>>>>> main
 form {
   display: flex;
   flex-direction: column;
@@ -607,7 +470,7 @@ form > div {
 /* ==========================================contact-form========================================================== */
 .contact-section {
   width: 375px;
-  height: 100vh;
+  height: 775px;
   background: #6070ff;
   border-top-left-radius: 15%;
   display: flex;
@@ -675,6 +538,7 @@ input[type='text'] {
 
 input[type='submit'] {
   padding: 16px 12px;
+  width: 80%;
   border-radius: 15px;
   font-weight: 500;
   font-size: 20px;
@@ -697,123 +561,8 @@ textarea:focus {
   outline: none;
 }
 
-<<<<<<< HEAD
 /* =============================================modal mobile+++++++++++++++++++++++++++++++++++++ */
 .popup-container {
-=======
-/* =====================================form validation css======================== */
-
-.form-input {
-  margin-bottom: 0.4rem;
-}
-
-.errorMsg {
-  font-size: 24px;
-  color: red;
-  font-weight: 500;
-  padding: 0.3rem;
-  margin-top: 0.3rem;
-  margin-right: 1rem;
-  float: right;
-  background-color: var(--white);
-  opacity: 0.9;
-  border-radius: 5px;
-  height: 40px;
-  visibility: hidden;
-}
-
-/* =============================================Modal mobile+++++++++++++++++++++++++++++++++++++ */
-.popup-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 120vh;
-  z-index: 10;
-  background-color: grey;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  opacity: 0.9;
-  margin: 0 auto;
-}
-
-.modal-container {
-  width: 90%;
-  height: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  background: var(--white);
-  z-index: 4;
-  padding: 1rem;
-  border-radius: 4%;
-  border: 4px solid red;
-}
-
-.modal-header {
-  display: flex;
-  border: 2px solid blue;
-  width: 90%;
-  height: 50px;
-}
-
-.modal-close-btn img {
-  width: 30px;
-  height: 10px;
-  border: 4px solid green;
-}
-
-.modal-bottom-container {
-  display: flex;
-  flex-direction: column;
-  border: 4px solid black;
-  width: 100%;
-  padding: 4px;
-}
-
-.details {
-  display: block;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  flex: none;
-  padding: 0.4rem;
-}
-
-.side-container {
-  display: flex;
-  width: 100%;
-  height: 20vh;
-}
-
-.flex-wrap {
-  display: flex;
-  border: 4px solid black;
-}
-
-.project-detail-btn-container {
-  border: 3px solid red;
-  display: flex;
-  width: 100%;
-  justify-content: start;
-  align-self: center;
-  margin: 3rem;
-  gap: 4px;
-}
-
-.project-detail-btn {
-  position: relative;
-  height: 40px;
-  margin-left: 6px;
-  transition: none;
-}
-
-.project-detail-btn img {
->>>>>>> main
   position: absolute;
   top: 0;
   left: 0;
@@ -830,7 +579,6 @@ textarea:focus {
   visibility: hidden;
 }
 
-<<<<<<< HEAD
 .modal-container {
   border: 1px solid blue;
   display: flex;
@@ -973,480 +721,3 @@ textarea:focus {
 }
 
 /* ===================================================================Desktop version======================================================== */
-=======
-/* ===================================================================Desktop version======================================================== */
-
-@media (min-width: 768px) {
-  .wrapper {
-    height: 90vh;
-    margin: 0 auto;
-  }
-
-  .toolbar-container {
-    background-color: var(--white);
-    position: fixed;
-    z-index: 3;
-    top: 0;
-    width: 100%;
-  }
-
-  header {
-    width: 100%;
-    background-image: url(../images/Img/Header\ bg@2x.svg);
-    background-repeat: no-repeat;
-    border-bottom-left-radius: 15%;
-    margin-top: -1px;
-  }
-
-  .top-nav {
-    width: 80%;
-    margin: auto;
-    align-items: center;
-  }
-
-  .humber {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .vector {
-    display: none;
-  }
-
-  .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    margin: 4px 8px;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #344563;
-    transform: scale(1);
-    transition: ease-in-out;
-  }
-
-  .menu a {
-    text-decoration: none;
-  }
-
-  .menu a:hover {
-    color: var(--white);
-    background-color: var(--skyblue);
-  }
-
-  .header-intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .greeting {
-    height: 122px;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
-    letter-spacing: 0.37px;
-    margin: 9rem 10rem 0.1rem 0;
-  }
-
-  .intro {
-    font-size: 20px;
-    line-height: 28px;
-    margin: 0 16rem 0.5rem 16rem;
-    order: 1;
-  }
-
-  .social {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    margin-left: 15rem;
-  }
-
-  /* ======================================work section ============================================ */
-
-  .work-section {
-    width: 90%;
-    border-radius: 24px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem auto 0 auto;
-  }
-
-  .image-container {
-    width: 35%;
-    margin: 0;
-    padding: 0.1rem;
-  }
-
-  .snapShoot-portfolio {
-    display: none;
-  }
-
-  .Portfolio-Desk-Card {
-    display: inline;
-    width: 100%;
-    border-radius: 8px;
-  }
-
-  .info-container {
-    width: 40%;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .owner-name {
-    display: none;
-  }
-
-  .mobile {
-    display: none;
-  }
-
-  .desktop {
-    display: block;
-  }
-
-  .owner-name2 {
-    display: block;
-    width: 100%;
-    height: 36px;
-    font-size: 30px;
-    line-height: 52px;
-    text-align: left;
-    font-style: normal;
-    font-weight: 700;
-    color: var(--dark-black);
-    margin: 0.1rem 0 0.1rem 0;
-  }
-
-  .info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-    margin-bottom: 20px;
-  }
-
-  .info-head2 {
-    display: block;
-    width: 70px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 24px;
-    color: #344563;
-    margin: 0.1rem 0 0.3rem 0;
-  }
-
-  .info-head {
-    display: none;
-  }
-
-  .list-of-course li {
-    height: 40px;
-    padding: 10px;
-  }
-
-  .menu-rails {
-    display: inline-block;
-    font-weight: 500;
-    font-size: 8px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    background: #ebebff;
-    border-radius: 8px;
-    padding: 3px;
-    margin-right: 0.2rem;
-  }
-
-  .info ul li {
-    width: 120px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7a869a;
-    list-style-type: square;
-    margin-right: 16px;
-  }
-
-  .daily-selection {
-    display: none;
-  }
-
-  .daily-selection2 {
-    display: block;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-    flex: none;
-    margin: 3rem 0 2rem 0;
-    padding: 0.4rem;
-  }
-
-  .flex-order {
-    order: 2;
-  }
-
-  /* -------------------------------------------Footer------------------------------------- */
-  .footer-container {
-    position: relative;
-    width: 100%;
-    border-top-right-radius: 16%;
-  }
-
-  .about-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    padding: 4rem 10rem;
-  }
-
-  .about-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 4rem;
-    flex: 1;
-  }
-
-  .about-myself {
-    width: 100%;
-    height: 50px;
-    font-size: 33px;
-    margin: 32px 0 0 2px;
-    padding: 8px;
-  }
-
-  .about-content {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 4px 0 1px 0;
-    padding: 6px 10px;
-    color: var(--dark-blue);
-    justify-content: center;
-  }
-
-  .btn-desktop {
-    width: 180px;
-    height: 55px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0.5rem;
-    padding: 0.5rem 0 0.5rem 0;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #396df2;
-    text-align: center;
-    text-decoration: none;
-    border: 1px solid #396df2;
-    border-radius: 16px;
-    transition: ease-in-out 3s;
-  }
-
-  .btn-desktop:enabled {
-    color: var(--skyblue);
-    border-color: var(--skyblue);
-    border: 1px solid var(--skyblue);
-  }
-
-  .btn-desktop:disabled {
-    color: var(--dark-grey);
-    border: 1px solid var(--dark-grey);
-  }
-
-  .btn-desktop:hover {
-    color: var(--white);
-    border-color: var(--skyblue);
-    background-color: var(--skyblue);
-  }
-
-  .btn-desktop:active {
-    color: var(--white);
-    border: 1px solid rgb(10, 10, 177);
-    background-color: rgb(10, 10, 177);
-  }
-
-  .btn {
-    display: none;
-  }
-
-  .language-container {
-    margin-top: 0.5rem;
-    flex: 1;
-  }
-
-  .soft-skill {
-    display: flex;
-    justify-content: space-between;
-    align-self: center;
-    border-bottom: 1px solid #ccc;
-  }
-
-  .weblang-container {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    height: 140px;
-    margin: 0.5rem;
-  }
-
-  .web-lang {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    height: 90px;
-    width: 100px;
-    margin: 0.5rem;
-    padding: 3px;
-  }
-
-  .web-lang img {
-    width: 50px;
-    height: 60px;
-  }
-
-  .web-lang h4 {
-    font-size: 14px;
-    margin: 0.1rem 1rem;
-  }
-
-  /* ========================================Contact me ========================================================= */
-  .contact-section {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-  }
-
-  .contact-content {
-    width: 100%;
-    background-image: url(../images/Img/contact\ formbackground\ shapes@2x.png);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    margin-bottom: 6rem;
-  }
-
-  .contact-me {
-    margin-top: 8rem;
-  }
-
-  .about-us {
-    width: 35%;
-    margin: 2rem 2rem 0 2rem;
-  }
-
-  form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-  }
-
-  input[type='text'],
-  input[type='email'] {
-    height: 48px;
-    width: 435px;
-    border-radius: 2px;
-  }
-
-  textarea {
-    border-radius: 2px;
-  }
-
-  .errorMsg {
-    padding: 0.4rem;
-    margin-right: 0;
-  }
-
-  /* --------------------------modal------------------------------------ */
-  .popup-container {
-    height: 114vh;
-  }
-
-  .modal-container {
-    width: 60%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-  }
-
-  .modal-header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 0;
-  }
-
-  .modal-image-container {
-    margin: 0 auto;
-    width: 50%;
-  }
-
-  .modal-bottom-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
-    gap: 12px;
-    width: 100%;
-    margin-top: 1rem;
-  }
-
-  .details {
-    width: 100%;
-    display: flex;
-    flex: 1;
-  }
-
-  .side-container {
-    display: flex;
-    flex-direction: column;
-    height: 50%;
-    flex: 1;
-    padding: 4px;
-    border: 5px solid green;
-  }
-
-  .flex-wrap {
-    display: flex;
-    border: 4px solid black;
-  }
-
-  .project-detail-btn-container {
-    border: 3px solid red;
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
-    height: 80px;
-  }
-}
-
-/* ====================================================Desktop version============================================================================= */
->>>>>>> main
