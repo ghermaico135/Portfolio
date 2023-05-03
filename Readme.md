@@ -1,13 +1,3 @@
-<!-- @format -->
-
-#Readme Portfolio Mobile and Desktop responsive version
-
-  <div align="center">
-
-  <h3><b>Portfolio Mobile and Desktop responsive</b></h3>
-
-</div>
-<!-- TABLE OF CONTENTS -->
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -34,28 +24,29 @@ Responsiveness to any plate form
 
 ## 🛠 Built With
 
-Html and css
+- HTML 
+
+- CSS
 
 ### Tech Stack
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://github.com/ghermaico135/Portfolio">portfolio</a></li>
-    <li><a href="https://ghermaico135.github.io/Portfolio/">online version portfolio</a></li>
-    
-  </ul>
-</details>
+- Github
+
+- Git
+
+- Webhint
+
+- Stylelint
 
 ### Key Features
 
+- **[A portfolio that display a documented work experience   and history of projects done]**
 - **[Zero linters error]**
 - **[Responsive mobile]**
 - **[Set up and design header section]**
 - **[Set up and design headline section]**
 - **[list of projects]**
 - **[language used in development]**
-- ** [Dynamic menu form mobile users ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,12 +58,11 @@ To get a local copy up and running, follow these steps.
 
 IIn order to run this project you need:
 
-- vscode.
+- Code Editor (Vs Code)
 
-- git.
+- Git
 
-- set up an index.html document.
-- set up a style.css document.
+- Browser (Chrome)
 
 ### Setup
 
@@ -81,8 +71,8 @@ Navigate to the directory where you want clone this project in your computer
 Run this commands:
 
 ```sh
-  cd Desktop
   git clone "https://github.com/ghermaico135/Portfolio"
+  cd Portfolio
 ```
 
 ## Install
@@ -91,22 +81,26 @@ Install this project with this command:
 
 ### Usage
 
-To run the project, execute the following command by opening the
-vscode with the command `code .`
+```sh
+  Open index.html in Chrome to view the website
+```
 
 ### Deployment
 
 You can deploy this project using:
 
 Github Page and uses this link to access the page
-"https://ghermaico135.github.io/Portfolio/"
+
+[Live Demo Link](https://ghermaico135.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 👤 **Michael okbamichael**
 
 - GitHub: [ghermaico135](https://github.com/ghermaico135)
+
 - Twitter: [@Mikidarling3](https://twitter.com/@Mikidarling3)
+
 - LinkedIn: [Michael okbamichael](https://www.linkedin.com/in/michael-okbamichael-966106263/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -136,11 +130,11 @@ If you like this project, give it a star ⭐ or comments thats constructive
 
 ## 🙏 Acknowledgments
 
-I would like to thank Microverse team and the code reviewers
+I would like to thank Microverse team for the projects ideas and the code reviewers for providing quality feedbacks for code improvement
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ (OPTIONAL)
+## ❓ FAQ 
 
 - **[How is learning in Microverse program? ]**
 
